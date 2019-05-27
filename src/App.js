@@ -17,13 +17,13 @@ function App() {
     //     <img src={logo} className="App-logo" alt="logo" />
     //     <p>
     //       Edit <code>src/App.js</code> and save to reload.  
-  <Container>
+  <Container className="topper">
 
     <Nav/>
   <Row>
     <Col md={4}>
     <img src={require("./img/suit.PNG")}
-    style={{width:"40%", float:"left"}}/>
+    style={{width:"40%", float:"left", borderRadius:35}}/>
     
     </Col>
     <Col  md={{ span: 4, offset: 4}}>
@@ -45,7 +45,7 @@ function App() {
   <Row>
     <Col><h1>A Boat Load of Know How</h1>
     <h2>Front End Tech:</h2>
-    <p>React, ESLint, BootStrap, Javascript, Jquery, Handlebars
+    <p>React, ESLint, BootStrap, Javascript, Jquery, CSS, Handlebars
     </p>
 
     <h2>Back End Tech:</h2>
@@ -59,62 +59,38 @@ function App() {
     <br></br>
     phone: 781-727-3848
     <br></br>
-    New Website: www.JamesRavenscroft3 coming song.
+    New Website: www.JamesRavenscroft3 coming soon.
     
     
     </Col>
 
   </Row>
-{/*   
-  <Row>
-    <Col>
-    <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="./img/wholeShabang.gif"
-      alt="liri"
-    />
+<br></br>
+<Row>
+  <h1>PROJECTS:</h1><br></br>
+  <h1>
+Oasis RPG: SwordMasters of Ginaz</h1>
+<img src={require("../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%" />
+</Row>
+<Row><h1>
+  Market SnapShot</h1>
+  <img src={require("../src/img/Market_snap_logo.png")} alt="marketSnapshotLogo" width="55%" />
+</Row>
+<Row><h1>
+  ReasonToDrink.Fun</h1>
+  <img src={require("../src/img/cheers.gif")} alt="reasonToDrinkLogo" width="40%" 
+  style={{  borderRadius: 85,
 
-    <Carousel.Caption>
-      <h3>Language Interpretation and Recognition Interface</h3>
-      <p>Find Concerts and Search Spotify all from the convenience of your Terminal</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="./img/video.gif"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+ }}
   
-    </Col>
-    <Col>Portfolio B</Col>
-  Carousel of Command line Apps.
-  </Row> */}
+  />
+</Row>
 
 
 </Container>
-// ;
+
+
+
 
   )}
 
