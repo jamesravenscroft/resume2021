@@ -3,7 +3,12 @@ import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
-import Carousel from 'react-bootstrap/Carousel'
+import Slider from './slider';
+
+
+// import Carousel from './Carousel';
+
+
 
 // import logo from './logo.svg';
 import './App.css';
@@ -70,20 +75,29 @@ function App() {
   <h1>PROJECTS:</h1><br></br>
   <h1>
 Oasis RPG: SwordMasters of Ginaz</h1>
-<img src={require("../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%" />
+<a href="https://morning-refuge-74795.herokuapp.com/">
+<img src={require("../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%"/>
+</a>
 </Row>
 <Row><h1>
-  Market SnapShot</h1>
+  Market SnapShot</h1><a href="https://market-snapshot.herokuapp.com/">
   <img src={require("../src/img/Market_snap_logo.png")} alt="marketSnapshotLogo" width="55%" />
+  </a>
 </Row>
 <Row><h1>
-  ReasonToDrink.Fun</h1>
+  ReasonToDrink.Fun</h1><a href="https://ReasonToDrink.Fun">
   <img src={require("../src/img/cheers.gif")} alt="reasonToDrinkLogo" width="40%" 
   style={{  borderRadius: 85,
-
  }}
-  
-  />
+   />
+</a>
+
+</Row>
+<Row 
+      // style={{width:"80%"}}
+  >
+    <h1>Very Exciting Back End Slideshow</h1>
+<Slider/>
 </Row>
 
 
