@@ -32,7 +32,7 @@ function App() {
     
     </Col>
     <Col  md={{ span: 4, offset: 4}}>
-    <h1>Hello there!<br></br> My name is James Ravenscroft<br>
+    <h1>Hello there!<br></br> My name is James Ravenscroft III<br>
     </br>
     Full Stack Web Developer
     </h1>
@@ -47,6 +47,13 @@ function App() {
  </Col>
   </Row>
   <br></br>
+  <a href="https://calendly.com/jamesravenscroft3">
+    <h3>Schedule an appointment. Click here.</h3>
+    
+
+  </a>
+  
+  <br></br>
   <Row>
     <Col><h1>A Boat Load of Know How</h1>
     <h2>Front End Tech:</h2>
@@ -60,12 +67,13 @@ function App() {
      
     </Col>
     <Col>Contact:<br></br>
-    email: jraventraining@gmail.com
+    email: hello@jamesravenscroft3.com
     <br></br>
     phone: 781-727-3848
     <br></br>
-    New Website: www.JamesRavenscroft3 coming soon.
-    
+    <a href="https://calendly.com/jamesravenscroft3">  Schedule an appointment. 
+    </a>
+ 
     
     </Col>
 
