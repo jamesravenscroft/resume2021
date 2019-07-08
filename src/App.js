@@ -85,7 +85,8 @@ function App() {
 Oasis RPG: SwordMasters of Ginaz</h1>
 <a href="https://morning-refuge-74795.herokuapp.com/">
 <img src={require("../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%"/>
-</a>
+</a><br></br>
+<iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </Row>
 <Row><h1>
   Market SnapShot</h1><a href="https://market-snapshot.herokuapp.com/">
