@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Nav from 'react-bootstrap/Nav';
+// import Nav from 'react-bootstrap/Nav';
 import Slider from './slider';
 import {Animated} from "react-animated-css";
 
@@ -22,34 +22,35 @@ function App() {
     //     <img src={logo} className="App-logo" alt="logo" />
     //     <p>
     //       Edit <code>src/App.js</code> and save to reload.  
-  <Container className="topper">
+  <Container className="topper" style={{maxWidth:"100%"}}>
 
-    <Nav/>
+
   <Row>
     <Col md={4}><Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
     <div>
-    <img src={require("./img/suit.PNG")}
-    style={{width:"40%", float:"left", borderRadius:35}}/>
+    <img src={require("./img/suit.PNG")} alt="suit"
+    style={{width:"100%", float:"left", borderRadius:35}}/>
     </div></Animated>
     </Col>
 
     
-    <Col  md={{ span: 4, offset: 4}}>
+    <Col  lg={{ span: 6}}>
     <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
     <div>
     <h1>Hello there!<br></br> My name is James Ravenscroft III<br>
     </br>
     Full Stack Web Developer
-    </h1></div></Animated>
+    </h1>    </div></Animated>
+
     <p className="mainDescription"
-         style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15}} 
+         style={{backgroundColor:"white", borderRadius:15, color:"black"}} 
           >
-    Full Stack Developer- prior to web Development I've been a manger and business owner.
-     I've developed many client compliance systems and constantly pushed to improve 
-     automation and communications systems. I've tinkered with programming 
-     recreationally since high school. Prior to learning Javascript I had taken 
-     video game programming classes that have helped me learn bits and pieces of 
-     javascript logic functions.
+    Full Stack Developer- prior to web Development I've been a manger and business owner.<br></br>
+     I've developed many client compliance systems and constantly pushed to improve <br></br>
+     automation and communications systems. I've tinkered with programming <br></br>
+     recreationally since high school. Prior to learning Javascript I had taken <br></br>
+     video game programming classes that have helped me learn  <br></br>
+     logic functions.
      </p>
  </Col> 
   </Row>
@@ -65,28 +66,30 @@ function App() {
     <Col><Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
     <div><h1>A Boat Load of Know How</h1></div></Animated>
     <h2>Front End Tech:</h2>
-    <p   style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15}} >
+    <p   style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15, color:"black"}} >
       React, ESLint, BootStrap, Javascript, Jquery, CSS, Handlebars
     </p>
 
     <h2>Back End Tech:</h2>
-    <p  style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15}} >NodeJS, MySQL, FireBase, Auth0, AJAX, Mongoose, Sequelize, Express
+    <p  style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15, color:"black"}} >NodeJS, MySQL, FireBase, Auth0, AJAX, Mongoose, Sequelize, Express
     </p>
      
      
-    </Col><br/>
+    </Col><br></br>
+
+  </Row>
+  <Row>    
     <Col><h1>Contact:</h1><br></br><p  style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15}} >
-    email: hello@jamesravenscroft3.com
+    <p style={{color:"black", fontSize:"150%"}}>email: hello@jamesravenscroft3.com
     <br></br>
-    phone: 781-727-3848
+    phone: 781-727-3848</p>
     <br></br>
     <a href="https://calendly.com/jamesravenscroft3">  Schedule an appointment. 
     </a>
  </p>
     
     </Col>
-
-  </Row>
+</Row>
 <br></br>
 <Row>
   <h1>PROJECTS:</h1><br></br>
@@ -99,7 +102,8 @@ Oasis RPG: SwordMasters of Ginaz</h1>
 animationOut="fadeInDownBig" isVisible={true}>
     <div>
 <img src={require("../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%"/></div></Animated>
-</a><br></br><h2 style={{float: "left", marginLeft:"25%"}}>Made with React</h2>
+</a>
+<br></br><h2 style={{float: "left", marginLeft:"25%"}}>Made with React</h2>
 <img src={require("./img/React.js_logo-512.png")} alt="reactLogo" style={{height:50, marginRight:"20%"}}/>
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
