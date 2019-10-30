@@ -166,13 +166,31 @@ animationOut="fadeInDownBig" isVisible={true}>
     <div>
 <img src={require("../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%"/></div></Animated>
 </a>
-<br></br><h2 style={{float: "left", marginLeft:"25%"}}>Made with React</h2>
+<br></br><h2 style={{float: "left", marginLeft:"25%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Made with React</h2>
 <img src={require("./img/React.js_logo-512.png")} alt="reactLogo" style={{height:50, marginRight:"20%"}}/>
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 style={{marginLeft:"25%"}}
 ></iframe>
 
+</Row>
+
+<Row><Col>
+ <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+   
+   Coming Soon: 
+   
+
+ 
+
+   <br></br>
+   <a href="https://ravenscroftgames.firebaseapp.com/">Animalchemists</a></h1><Row>
+   <img src={require("../src/img/pic4767592.png")} alt="animalc1" width="35%" />
+
+<br></br>
+   <img src={require("../src/img/pic4905412.jpg")} alt="animalc2" width="65%" />
+   </Row>
+</Col>
 </Row>
 <Row>
   <h1>
@@ -192,9 +210,35 @@ style={{marginLeft:"25%"}}
 <Row 
       // style={{width:"80%"}}
   >
-    <h1>Very Exciting Back End Slideshow</h1>
+    <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Very Exciting Back End Slideshow</h1>
 <Slider/>
 </Row>
+
+<Row ><Col>
+    <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Services:</h1><br></br>
+<br></br>
+<h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Web Site:</h2><br></br>
+<h3 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+  Includes annual revisions.</h3><br></br>
+<h3 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+  I5 Years for $500</h3><br></br>
+<h3 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+  3Years for $400</h3>
+  <br></br>
+<Row><Col>
+<h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+ 
+  Video Game</h2><br></br>
+<h3 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+  Includes art and annual database hosting.</h3><br></br>
+<h3 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+  $35,000</h3><br></br>
+  </Col>
+</Row>
+</Col>
+</Row>
+
+
 
 
 </Container>
