@@ -72,7 +72,7 @@ style={{
 </Nav>
     {/* <Navbar></Navbar> */}
  <Animated animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
-    <div>
+    <Col>
 
   <Row>
     <Col md={4}>
@@ -86,24 +86,23 @@ style={{
     
     <Col  lg={{ span: 6}}>
     <Animated animationIn="bounceInRight" animationInDelay="550" animationOut="fadeOut" isVisible={true}>
-    <div>
+    <Col>
     <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Hello there!<br></br> My name is James Ravenscroft III<br>
     </br>
     Full Stack Web Developer
-    </h1>    </div></Animated>
+    </h1>    </Col></Animated>
 
     <p className="mainDescription"
          style={{backgroundColor:"white", borderRadius:15, color:"black",width:"100%"}} 
           >
-    Full Stack Developer- prior to web Development I've been a manger and business owner.<br></br>
-     I've developed many client compliance systems and constantly pushed to improve <br></br>
+    Full Stack Developer- prior to web Development I've been a
+    <br></br>manger and business owner.<br></br>
+     I've developed many client compliance systems and <br></br>constantly pushed to improve <br></br>
      automation and communications systems. I've tinkered with programming <br></br>
-     recreationally since high school. Prior to learning Javascript I had taken <br></br>
-     video game programming classes that have helped me learn  <br></br>
-     logic functions.
+     recreationally for years and now I am   <br></br>
      </p>
  </Col> 
-  </Row></div></Animated>
+  </Row></Col></Animated>
   <br></br>
   <a href="https://calendly.com/jamesravenscroft3">
     <h2 style={{color:"red", fontSize:60, WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:2, WebkitFlexGrow:10}}>Schedule an appointment. Click here.</h2>
@@ -114,7 +113,7 @@ style={{
   <br></br>
   <Row>
     <Col><Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
-    <div><h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>A Boat Load of Know How</h1></div></Animated>
+    <Col><h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>A Boat Load of Know How</h1></Col></Animated>
     <h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Front End Tech:</h2>
     <p   style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15, color:"black",
           margin: 0,
@@ -151,14 +150,14 @@ style={{
   </Row><Row>
 
   <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
-Oasis RPG: SwordMasters of Ginaz</h1></Row><Row>
+SwordMasters of Ginaz</h1></Row><Row>
 <br></br>
 <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
 
-Web Based Desktop RPG
+Web Based Desktop RPG. 
 </h1>
-
-
+<br></br>
+<p>Technology used: React, BootStrap, CSS Animations, Firebase</p>
 <a href="https://swordmasters-august.firebaseapp.com"><Animated animationIn="fadeIn" 
 // animationInDelay={10000} 
 // animateOnMount="true"
@@ -197,6 +196,10 @@ style={{marginLeft:"25%"}}
   Market SnapShot</h1><a href="https://market-snapshot.herokuapp.com/">
   <img src={require("../src/img/Market_snap_logo.png")} alt="marketSnapshotLogo" width="55%" />
   </a>
+  <h1>See The latest housing trends in San Diego</h1>
+  <br>
+  </br>
+  <p>Tech used: Chart.js MySQL</p>
 </Row>
 <Row><h1>
   ReasonToDrink.Fun</h1><a href="https://ReasonToDrink.Fun">
@@ -205,7 +208,10 @@ style={{marginLeft:"25%"}}
  }}
    />
 </a>
-
+<h1>Find a holiday and a place to celebrate</h1>
+  <br>
+  </br>
+  <p>Tech used: Ajax, Javascript, BootStrap</p>
 </Row>
 <Row 
       // style={{width:"80%"}}
