@@ -152,12 +152,13 @@ style={{
   <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
 SwordMasters of Ginaz</h1></Row><Row>
 <br></br>
-<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
 
+<Row>
+<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
 Web Based Desktop RPG. 
-</h1>
-<br></br>
-<p>Technology used: React, BootStrap, CSS Animations, Firebase</p>
+</h1></Row>
+<br></br><Row>
+<p>Technology used: React, BootStrap, CSS Animations, Firebase</p></Row>
 <a href="https://swordmasters-august.firebaseapp.com"><Animated animationIn="fadeIn" 
 // animationInDelay={10000} 
 // animateOnMount="true"
@@ -178,9 +179,6 @@ style={{marginLeft:"25%"}}
  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
    
    Coming Soon: 
-   
-
- 
 
    <br></br>
    <a href="https://ravenscroftgames.firebaseapp.com/">Animalchemists</a></h1><Row>
@@ -190,15 +188,18 @@ style={{marginLeft:"25%"}}
    <img src={require("../src/img/pic4905412.jpg")} alt="animalc2" width="65%" />
    </Row>
 </Col>
+<Row><p>Tech used: React DND, Firebase</p></Row>
 </Row>
 <Row>
   <h1>
   Market SnapShot</h1><a href="https://market-snapshot.herokuapp.com/">
   <img src={require("../src/img/Market_snap_logo.png")} alt="marketSnapshotLogo" width="55%" />
-  </a>
+  </a><Row>
   <h1>See The latest housing trends in San Diego</h1>
   <br>
   </br>
+  </Row>
+
   <p>Tech used: Chart.js MySQL</p>
 </Row>
 <Row><h1>
@@ -210,9 +211,9 @@ style={{marginLeft:"25%"}}
 </a>
 <h1>Find a holiday and a place to celebrate</h1>
   <br>
-  </br>
+  </br><Row>
   <p>Tech used: Ajax, Javascript, BootStrap</p>
-</Row>
+</Row></Row>
 <Row 
       // style={{width:"80%"}}
   >
@@ -243,20 +244,8 @@ style={{marginLeft:"25%"}}
 </Row>
 </Col>
 </Row>
-
-
-
-
 </Container>
-
-
-
-
   )}
-
-
-
-
 
     //     </p>
     //     <a
