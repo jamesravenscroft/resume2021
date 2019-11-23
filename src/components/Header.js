@@ -31,12 +31,12 @@ function Header (){
     Full Stack Web Developer
     </h1>    </Col></Animated>
 
-    <p className="mainDescription"
-         style={{color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
+    <p className="text-justify"
+         style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
           >
     I am currently working as Coding Instructor at The Coder School of La Jolla. 
      </p>
-     <p style={{color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}> Some examples of my work are listed below, which are a mix of Node.JS and React.</p>
+     <p style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}> Some examples of my work are listed below, which are a mix of Node.JS and React.</p>
  </Col> 
   </Row></Col></Animated>
 </Container>
