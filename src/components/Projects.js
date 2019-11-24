@@ -13,7 +13,7 @@ function Projects (){
       <Container style={{width:"90%"}}>
         {/* <Grid> */}
 <Row>
-  <h1 style={{WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
+  <h1 style={{marginLeft:"40%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
   </Row><Row>
 
   <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>

@@ -19,12 +19,13 @@ return(
           margin: 0,
        padding:0,
        width:"100%",
-       position:"relative"
+       position:"relative",
+       whiteSpace: 'normal'
       }} >
       React, ESLint, BootStrap, Javascript, Jquery, CSS, Handlebars
     </p>
 
-    <h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Back End Tech:</h2>
+    <h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, whiteSpace: 'normal'}}>Back End Tech:</h2>
     <p  style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15, color:"black"}} >NodeJS, MySQL, FireBase, Auth0, AJAX, Mongoose, Sequelize, Express
     </p>
      

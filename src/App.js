@@ -9,7 +9,8 @@ import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Skill from "./components/Skill";
-import Eductation from "./components/Education"
+import Eductation from "./components/Education";
+import OtherProjects from "./components/OtherProjects";
 // import Navbar from "./components/Navbars/AdminNavbar"
 // import AdminNavbarLinks from "./components/Navbars"
 // import Carousel from './Carousel';
@@ -86,6 +87,7 @@ style={{
 <br></br>
 <Skill/>
 <Projects/>
+<OtherProjects/>
 <Row ><Col>
     <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Services:</h1><br></br>
 <br></br>
