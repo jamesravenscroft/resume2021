@@ -16,7 +16,7 @@ return(
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
     style={{width:"80%"}}/>
 <br/>
-Shape Hunter <br/> Kids Game!</a><br></br><p>HTML5</p>
+Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 </Col>
 <Col><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
    <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" width="100%"/> </a> 
@@ -26,11 +26,20 @@ Shape Hunter <br/> Kids Game!</a><br></br><p>HTML5</p>
     style={{width:"50%"}}
     />
 <h4 class="pt-100 pb-30"><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
-<p>
+<p style={{color:"black"}}>
 Friend Finder will help find your best friend based on our survey.		
-</p><br></br><p>Javascript, Ajax</p>
+</p><br></br><p  style={{color:"black"}}>Javascript, Ajax</p>
 </Col>
-<Col>3</Col>
+<Col>
+<img src={require("../img/gifTime.PNG")} alt="gifTime"
+    style={{width:"20%"}}
+    />
+<h4 class="pt-100 pb-30"><a href="https://jamesravenscroft.github.io/gifTime/">Bestest Directors Gifs</a></h4>
+<p style={{color:"black"}}>
+See gifs from great directors, or add your own.		
+</p><br></br><p style={{color:"black"}}>Javascript, Ajax</p>
+
+</Col>
 </Row>
 <Row>
 <Col><a href="https://jamesravenscroft.github.io/unit-4-game/">
@@ -44,12 +53,23 @@ Friend Finder will help find your best friend based on our survey.
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
      <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"35%"}} alt="dune"/>
-  <p class=" pb-100">The Gom Jabbar<br></br>
+  <p class=" pb-100"  style={{color:"black"}}>The Gom Jabbar<br></br>
 Can you master the litany against fear?				
-    </p>						
+    </p>
+    <p style={{color:"black"}}>Javascript, Timers</p>						
 </a>
 
 </Col>
+</Row>
+<Row>
+<a href="https://jamesravenscroft.github.io/trainScheduler/">
+<img class="img-fluid" src={require("../img/fvCover.jpg")} style={{width:"25%"}} alt="dune"/>
+  <p class=" pb-100"  style={{color:"black"}}>Fantastic Voyage<br></br>
+Train Scheduler	
+    </p>
+    <p style={{color:"black"}}>Firebase</p>						
+</a>
+
 </Row>
 </Container>
 

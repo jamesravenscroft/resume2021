@@ -68,8 +68,8 @@ style={{marginLeft:"25%"}}
   <img src={require("../../src/img/Market_snap_logo.png")} alt="marketSnapshotLogo" width="55%" />
   </a><Row>
   <h1>      See The latest housing trends in San Diego</h1><br></br>
- <p>Tech Used: Ajax, Chart.js</p>
-  </Row>
+ <Row><p>Tech Used: Ajax, Chart.js</p>
+  </Row></Row>
   <br>
   </br>
 
@@ -86,7 +86,8 @@ style={{marginLeft:"25%"}}
 <h1>Find a holiday and a place to celebrate</h1>
   <br>
   </br>
-  <p>Tech Used: Ajax, Javascript</p>
+  <Row>
+  <p>Tech Used: Ajax, Javascript</p></Row>
   <Row>
   {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}
 </Row></Row>
@@ -96,6 +97,7 @@ style={{marginLeft:"25%"}}
     <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Very Exciting Back End Slideshow</h1>
 <Slider/>
 </Row>
+<Row><p>Tech Used: Node.JS</p></Row>
 {/* </Grid> */}
 </Container>
     </div>
