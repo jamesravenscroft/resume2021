@@ -10,7 +10,14 @@ return(
 <Container style={{backgroundColor:"white"}}>
     <Row><h1 style={{marginLeft:"10%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
 <Row>
-<Col>1</Col>
+<Col>
+
+ <a target="_blank" href="https://jamesravenscroft.github.io/Responsive-Portfolio/assets/Shape_Hunter/index.html">
+ <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
+    style={{width:"80%"}}/>
+<br/>
+Shape Hunter <br/> Kids Game!</a><br></br><p>HTML5</p>
+</Col>
 <Col><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
    <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" width="100%"/> </a> 
    <p style={{color:"black"}}> Legend of Zelda Word Guess</p></Col>
@@ -21,19 +28,24 @@ return(
 <h4 class="pt-100 pb-30"><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
 <p>
 Friend Finder will help find your best friend based on our survey.		
-</p>
+</p><br></br><p>Javascript, Ajax</p>
 </Col>
 <Col>3</Col>
 </Row>
 <Row>
-<Col>4</Col>
-<Col>    
-
-<a href="https://jamesravenscroft.github.io/unit-4-game/">
+<Col><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
-     <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachMedium.PNG")} style={{width:"35%"}} alt="dune"/>
-  <p class=" pb-100">The Ballad of the Kwizats Haderach<br></br>
- Become the Pinnacle of Human evolution.				
+          <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachMedium.PNG")} style={{width:"35%"}} alt="dune"/>
+       <p class=" pb-100">The Ballad of the Kwizats Haderach<br></br>
+      Become the Pinnacle of Human evolution.<p>jQuery</p>				
+         </p>						
+     </a></Col>
+<Col>    
+<a href="https://jamesravenscroft.github.io/TriviaGame/">
+  		
+     <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"35%"}} alt="dune"/>
+  <p class=" pb-100">The Gom Jabbar<br></br>
+Can you master the litany against fear?				
     </p>						
 </a>
 
@@ -108,8 +120,7 @@ Friend Finder will help find your best friend based on our survey.
 //   </div>
 // </div>
 
-{/* <a target="_blank" href="assets/Shape_Hunter/index.html">
-<div class="slideUp"> <img src="assets/Shape_Hunter/images/shapeHunterKid.png" alt="Shape Hunter" width="300" height="200">
-</a>
-<div class="desc">Shape Hunter <br> Kids Game!</div></div>
-</div> */}
+
+
+// gom jabbar
+//https://jamesravenscroft.github.io/TriviaGame/
