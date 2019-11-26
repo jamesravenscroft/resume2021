@@ -41,7 +41,7 @@ animationOut="fadeInDownBig" isVisible={true}>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 style={{marginLeft:"25%"}}
 ></iframe>
-
+<Row><p>Tech Used: React, CSS, Firebase</p></Row>
 </Row>
 
 <Row><Col>
@@ -67,7 +67,8 @@ style={{marginLeft:"25%"}}
   Market SnapShot</h1><a href="https://market-snapshot.herokuapp.com/">
   <img src={require("../../src/img/Market_snap_logo.png")} alt="marketSnapshotLogo" width="55%" />
   </a><Row>
-  <h1>      See The latest housing trends in San Diego</h1>
+  <h1>      See The latest housing trends in San Diego</h1><br></br>
+ <p>Tech Used: Ajax, Chart.js</p>
   </Row>
   <br>
   </br>
@@ -84,7 +85,9 @@ style={{marginLeft:"25%"}}
 </a>
 <h1>Find a holiday and a place to celebrate</h1>
   <br>
-  </br><Row>
+  </br>
+  <p>Tech Used: Ajax, Javascript</p>
+  <Row>
   {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}
 </Row></Row>
 <Row 
