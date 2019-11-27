@@ -40,7 +40,7 @@ animationOut="fadeInDownBig" isVisible={true}>
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 style={{marginLeft:"25%"}}
-></iframe>
+></iframe><br></br>
 <Row><p>Tech Used: React, CSS, Firebase</p></Row>
 </Row>
 
@@ -52,10 +52,10 @@ style={{marginLeft:"25%"}}
    <br></br>
    <a href="https://ravenscroftgames.firebaseapp.com/">
      <p style={{color:"white",WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1 }}>Animalchemists</p></a></h1><Row>
-   <img src={require("../../src/img/pic4767592.png")} alt="animalc1" width="35%" />
+   <img src={require("../../src/img/pic4767592.png")} alt="animalc1" width="25%" />
 
 <br></br>
-   <img src={require("../../src/img/pic4905412.jpg")} alt="animalc2" width="65%" />
+   <img src={require("../../src/img/pic4905412.jpg")} alt="animalc2" width="55%" />
    </Row>
 </Col>
 <Row>
@@ -97,7 +97,7 @@ style={{marginLeft:"25%"}}
     <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Very Exciting Back End Slideshow</h1>
 <Slider/>
 </Row>
-<Row><p>Tech Used: Node.JS</p></Row>
+<Row><p>Tech Used: Node.JS, MySQL, MongoDB, Sequelize</p></Row>
 {/* </Grid> */}
 </Container>
     </div>

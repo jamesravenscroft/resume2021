@@ -28,8 +28,13 @@ return(
     <h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, whiteSpace: 'normal'}}>Back End Tech:</h2>
     <p  style={{border:"blue", borderTopColor:"black" , borderWidth:10,borderBottomColor:"black", backgroundColor:"white", borderRadius:15, color:"black"}} >NodeJS, MySQL, FireBase, Auth0, AJAX, Mongoose, Sequelize, Express
     </p>
-     
-     
+     <br/>
+     <img src={require("../img/icons8-html-5-48.png")} alt="html"/>
+     <img src={require("../img/icons8-sql-64.png")} alt="sql"/>
+     <img src={require("../img/icons8-python-64.png")} alt="python"/>
+
+     <img src={require("../img/icons8-java-48.png")} alt="java"/>
+  
     </Col><br></br>
 
 </Row>)};
