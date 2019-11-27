@@ -30,11 +30,12 @@ return(
     </p>
      <br/>
      <img src={require("../img/icons8-html-5-48.png")} alt="html"/>
+     <img src={require("../img/React.js_logo-512.png")} alt="react" style={{width:"5%"}}/>
      <img src={require("../img/icons8-sql-64.png")} alt="sql"/>
      <img src={require("../img/icons8-python-64.png")} alt="python"/>
 
      <img src={require("../img/icons8-java-48.png")} alt="java"/>
-  
+    
     </Col><br></br>
 
 </Row>)};

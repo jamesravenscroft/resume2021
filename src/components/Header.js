@@ -34,9 +34,13 @@ function Header (){
     <p className="text-justify"
          style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
           >
-    I am currently working as Coding Instructor at The Coder School of La Jolla. 
+    I am currently working as Coding Instructor at The Coder School of La Jolla, California. 
      </p>
-     <p style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}> Some examples of my work are listed below, which are a mix of Node.JS and React.</p>
+     <p style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
+        Some examples of my work are listed below, which are a mix of Node.JS and React.</p><br/>
+        <p style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
+        When I'm not coding I enjoy writing for independent films, bike riding and spending time with my family.
+        </p>   
  </Col> 
   </Row></Col></Animated>
 </Container>

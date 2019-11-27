@@ -41,42 +41,28 @@ animationOut="fadeInDownBig" isVisible={true}>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 style={{marginLeft:"25%"}}
 ></iframe><br></br>
-<Row><p>Tech Used: React, CSS, Firebase</p></Row>
+<Row><p class="col-md-6 col-md-offset-3">Tech Used: React, CSS, Firebase</p></Row>
 </Row>
 
-<Row><Col>
- <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
-   
-   Coming Soon: 
 
-   <br></br>
-   <a href="https://ravenscroftgames.firebaseapp.com/">
-     <p style={{color:"white",WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1 }}>Animalchemists</p></a></h1><Row>
-   <img src={require("../../src/img/pic4767592.png")} alt="animalc1" width="25%" />
-
-<br></br>
-   <img src={require("../../src/img/pic4905412.jpg")} alt="animalc2" width="55%" />
-   </Row>
-</Col>
-<Row>
-  {/* <p style={{float:"left"}}>Tech used: React DND, Firebase</p> */}
-</Row>
-</Row>
+<br/>
 <Row>
   <h1>
   Market SnapShot</h1><a href="https://market-snapshot.herokuapp.com/">
   <img src={require("../../src/img/Market_snap_logo.png")} alt="marketSnapshotLogo" width="55%" />
-  </a><Row>
+  </a>
+  <br/>
+    <Row>
   <h1>      See The latest housing trends in San Diego</h1><br></br>
  <Row><p>Tech Used: Ajax, Chart.js</p>
-  </Row></Row>
+  </Row><br/></Row>
   <br>
   </br>
 
 
   {/* <p>Tech used: Chart.js MySQL</p> */}
 </Row>
-<Row><h1>
+<Row><br/><h1>
   ReasonToDrink.Fun</h1><a href="https://ReasonToDrink.Fun">
   <img src={require("../../src/img/cheers.gif")} alt="reasonToDrinkLogo" width="40%" 
   style={{  borderRadius: 85, width:"100%"
@@ -99,6 +85,25 @@ style={{marginLeft:"25%"}}
 </Row>
 <Row><p>Tech Used: Node.JS, MySQL, MongoDB, Sequelize</p></Row>
 {/* </Grid> */}
+<Row><Col>
+ <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+   
+   Coming Soon: 
+
+   <br></br>
+   <a href="https://ravenscroftgames.firebaseapp.com/">
+     <p style={{color:"white",WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1 }}>Animalchemists</p></a></h1><Row>
+   <img src={require("../../src/img/pic4767592.png")} alt="animalc1" width="25%" />
+
+<br></br>
+   <img src={require("../../src/img/pic4905412.jpg")} alt="animalc2" width="55%" />
+   </Row><br/>
+</Col>
+<Row>
+  {/* <p style={{float:"left"}}>Tech used: React DND, Firebase</p> */}
+</Row>
+</Row>
+
 </Container>
     </div>
     )};

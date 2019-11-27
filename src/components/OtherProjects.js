@@ -8,8 +8,10 @@ function OtherProjects(){
 return(
 <div>
 <Container style={{backgroundColor:"white"}}>
-    <Row><h1 style={{marginLeft:"10%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
+    <Row><h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
 <Row>
+
+{/* 1 */}
 <Col>
 
  <a target="_blank" href="https://jamesravenscroft.github.io/Responsive-Portfolio/assets/Shape_Hunter/index.html">
@@ -18,6 +20,7 @@ return(
 <br/>
 Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 </Col>
+
 <Col><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
    <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" width="100%"/> </a> 
    <p style={{color:"black"}}> Legend of Zelda Word Guess</p></Col>
@@ -30,21 +33,15 @@ Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 Friend Finder will help find your best friend based on our survey.		
 </p><br></br><p  style={{color:"black"}}>Javascript, Ajax</p>
 </Col>
-<Col>
-<img src={require("../img/gifTime.PNG")} alt="gifTime"
-    style={{width:"20%"}}
-    />
-<h4 class="pt-100 pb-30"><a href="https://jamesravenscroft.github.io/gifTime/">Bestest Directors Gifs</a></h4>
-<p style={{color:"black"}}>
-See gifs from great directors, or add your own.		
-</p><br></br><p style={{color:"black"}}>Javascript, Ajax</p>
+{/* 2 */}
 
-</Col>
 </Row>
+
+
 <Row>
 <Col><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
-          <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachMedium.PNG")} style={{width:"35%"}} alt="dune"/>
+          <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachMedium.PNG")} style={{width:"45%"}} alt="dune"/>
        <p class=" pb-100">The Ballad of the Kwizats Haderach<br></br>
       Become the Pinnacle of Human evolution.<p>jQuery</p>				
          </p>						
@@ -52,7 +49,7 @@ See gifs from great directors, or add your own.
 <Col>    
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
-     <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"35%"}} alt="dune"/>
+     <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"45%"}} alt="dune"/>
   <p class=" pb-100"  style={{color:"black"}}>The Gom Jabbar<br></br>
 Can you master the litany against fear?				
     </p>
@@ -60,6 +57,18 @@ Can you master the litany against fear?
 </a>
 
 </Col>
+<Col>
+<img src={require("../img/gifTime.PNG")} alt="gifTime"
+    style={{width:"50%"}}
+    />
+<h4 class="pt-100 pb-30"><a href="https://jamesravenscroft.github.io/gifTime/">Bestest Directors Gifs</a></h4>
+<p style={{color:"black"}}>
+See gifs from great directors, or add your own.		
+</p><br></br><p style={{color:"black"}}>Javascript, Ajax</p>
+
+</Col>
+
+
 </Row>
 <Row>
 <a href="https://jamesravenscroft.github.io/trainScheduler/">
@@ -71,6 +80,8 @@ Train Scheduler
 </a>
 
 </Row>
+
+
 </Container>
 
 
