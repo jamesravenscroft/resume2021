@@ -10,6 +10,7 @@
     "react": "^16.8.6",
     "react-animated-css": "^1.2.1",
     "react-bootstrap": "^1.0.0-beta.8",
+    "react-bootstrap-modal": "^4.2.0",
     "react-dom": "^16.8.6",
     "react-motion-menu": "^0.4.4",
     "react-scripts": "3.0.1"

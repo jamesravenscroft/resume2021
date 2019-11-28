@@ -4,11 +4,12 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import {Animated} from "react-animated-css";
+import "../App.css"
 function Header (){
 
     return(
     <div>
-        <Container>
+        <Container className="bg">
 <Animated animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
     <Col>
 

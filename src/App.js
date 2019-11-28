@@ -11,6 +11,7 @@ import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 import Eductation from "./components/Education";
 import OtherProjects from "./components/OtherProjects";
+import BackgroundImage from "./components/BackgroundImage";
 // import Navbar from "./components/Navbars/AdminNavbar"
 // import AdminNavbarLinks from "./components/Navbars"
 // import Carousel from './Carousel';
@@ -37,9 +38,11 @@ function App() {
     //     <img src={logo} className="App-logo" alt="logo" />
     //     <p>
     //       Edit <code>src/App.js</code> and save to reload.  
-  <Container className="topper" style={{maxWidth:"100%",
-    background: 'linear-gradient(to right bottom, 	#0080ff, #00ffff)'
+  <Container className="topper" style={{maxWidth:"100%", 
+    background: 'linear-gradient(to right bottom, 	#0080ff, #00ffff)',
+    
   }} >
+    {/* <BackgroundImage/> */}
   {/* <h3>Corner menu example</h3>
        
             <MotionMenu

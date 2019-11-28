@@ -41,15 +41,15 @@ Friend Finder will help find your best friend based on our survey.
 <Row>
 <Col><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
-          <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachMedium.PNG")} style={{width:"45%"}} alt="dune"/>
-       <p class=" pb-100">The Ballad of the Kwizats Haderach<br></br>
+          <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachMedium.PNG")} style={{width:"55%"}} alt="dune"/>
+       <p class=" pb-100">Dune Fightin Game<br></br>
       Become the Pinnacle of Human evolution.<p>jQuery</p>				
          </p>						
      </a></Col>
 <Col>    
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
-     <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"45%"}} alt="dune"/>
+     <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"55%"}} alt="dune"/>
   <p class=" pb-100"  style={{color:"black"}}>The Gom Jabbar<br></br>
 Can you master the litany against fear?				
     </p>
@@ -59,7 +59,7 @@ Can you master the litany against fear?
 </Col>
 <Col>
 <img src={require("../img/gifTime.PNG")} alt="gifTime"
-    style={{width:"50%"}}
+    style={{width:"60%"}}
     />
 <h4 class="pt-100 pb-30"><a href="https://jamesravenscroft.github.io/gifTime/">Bestest Directors Gifs</a></h4>
 <p style={{color:"black"}}>

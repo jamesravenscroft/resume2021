@@ -22,7 +22,7 @@ return(
        position:"relative",
        whiteSpace: 'normal'
       }} >
-      React, ESLint, BootStrap, Javascript, Jquery, CSS, Handlebars
+      React, ESLint, BootStrap, Javascript, jQuery, CSS, Handlebars
     </p>
 
     <h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, whiteSpace: 'normal'}}>Back End Tech:</h2>
