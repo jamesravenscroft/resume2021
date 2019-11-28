@@ -33,15 +33,17 @@ import './App.css';
 
 function App() {
   return (
-    // <div className="App">
+
+    <div style={{maxWidth:"100%", minWidth:"100%",
+    background: 'linear-gradient(to right bottom, 	#0080ff, #00ffff)'}}>
+    {/* // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
     //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.  
-  <Container className="topper" style={{maxWidth:"100%", 
-    background: 'linear-gradient(to right bottom, 	#0080ff, #00ffff)',
-    
-  }} >
+    //       Edit <code>src/App.js</code> and save to reload.   */}
+  <Container className="topper" >
+    // fluid={true}
+
     {/* <BackgroundImage/> */}
   {/* <h3>Corner menu example</h3>
        
@@ -115,18 +117,7 @@ style={{
 </Col>
 </Row>
 </Container>
+</div>
   )}
-
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
 
 export default App;
