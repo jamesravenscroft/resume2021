@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function Education(){
     return(
-<div style={{backgroundColor:"white", width:"75%", marginLeft:"10%", borderRadius:"15%", minWidth:500}}>
+<div style={{backgroundColor:"white", width:"75%", marginLeft:"10%", borderRadius:"15%", minWidth:500, whiteSpace:"normal"}}>
     <Row>
         <h1 style={{marginLeft:"40%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Education:</h1>
     </Row>
@@ -18,12 +18,12 @@ function Education(){
         
         <Col style={{width:"50%"}}> <img src={require("../img/ucsd1.png")}
         style={{marginTop:"0%"}}/>
-        <br/><p style={{color:"black"}}>Full Stack Web Developer Certifaction 2019</p>
+        <br/><p style={{color:"black", whiteSpace:"normal"}}>Full Stack Web Developer Certifaction 2019</p>
         </Col>
     </Row>
     <Row>
-    <h2 style={{marginLeft:"40%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Other Education:</h2>
-    <p style={{marginLeft:"20%", color:"black"}}>National Academy of Sport Medicine, CPT, CES. Fitness Together Leadership Training</p>
+    <h2 style={{marginLeft:"30%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Other Education:</h2>
+    <p style={{marginLeft:"20%", color:"black", whiteSpace:"normal"}}>National Academy of Sport Medicine, CPT, CES. Fitness Together Leadership Training</p>
     </Row>
 
 

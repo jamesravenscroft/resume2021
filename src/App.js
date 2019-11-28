@@ -34,7 +34,7 @@ import './App.css';
 function App() {
   return (
 
-    <div style={{maxWidth:"100%", minWidth:"100%",
+    <div style={{maxWidth:"100%", minWidth:"100%", whiteSpace: 'normal',
     background: 'linear-gradient(to right bottom, 	#0080ff, #00ffff)'}}>
     {/* // <div className="App">
     //   <header className="App-header">
@@ -42,7 +42,7 @@ function App() {
     //     <p>
     //       Edit <code>src/App.js</code> and save to reload.   */}
   <Container className="topper" >
-    // fluid={true}
+   
 
     {/* <BackgroundImage/> */}
   {/* <h3>Corner menu example</h3>
@@ -86,7 +86,9 @@ style={{
  <Header/>
   
   <br></br>
- <Contact/>
+ <Contact
+  style={{marginTop:"10%"}}
+  />
  <br></br>
  <Eductation/>
 <br></br>

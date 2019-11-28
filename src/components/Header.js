@@ -9,7 +9,7 @@ function Header (){
 
     return(
     <div>
-        <Container className="bg">
+        <Container className="bg" style={{ whiteSpace: 'normal'}}>
 <Animated animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
     <Col>
 

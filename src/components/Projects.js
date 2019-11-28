@@ -20,7 +20,7 @@ function Projects (){
   <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"30%"}}>
 SwordMasters of Ginaz</h1></Row><Row>
 <br></br>
-https://github.com/jamesravenscroft/swordmastersofginazAugust
+
 <Row>
 <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"45%"}}>
 Web Based Desktop RPG. 
@@ -41,13 +41,12 @@ animationOut="fadeInDownBig" isVisible={true}>
 <img src={require("./../img/React.js_logo-512.png")} alt="reactLogo" style={{height:50, marginRight:"20%"}}/> */}
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
-style={{marginLeft:"25%"}}
+style={{marginLeft:"15%"}}
 ></iframe><br></br>
-<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"60%"}}>Tech Used: React, CSS, Firebase</p><br/>
-<img src={require("../img/gitLogo.png")} 
-
+<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"50%"}}>Tech Used: React, CSS, Firebase</p><br/>
+<a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"40%"}} 
-alt="gitLogo"/>
+alt="gitLogo"/></a>
 </Row>
 </Row>
 
@@ -60,7 +59,7 @@ alt="gitLogo"/>
   </a>
   <br/>
     <Row>
-  <h1 style={{marginLeft:"15%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>See The latest housing trends in San Diego</h1><br></br>
+  <h2 style={{marginLeft:"0%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>See The latest housing trends in San Diego</h2><br></br>
  <Row><p style={{marginLeft:"60%"}}>Tech Used: Ajax, Chart.js</p>
   </Row><br/><br/><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"40%"}} 
