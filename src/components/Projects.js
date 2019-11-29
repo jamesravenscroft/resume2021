@@ -14,7 +14,7 @@ function Projects (){
       <Container style={{width:"90%"}}>
         {/* <Grid> */}
 <Row>
-  <h1 style={{marginLeft:"40%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
+  <h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
   </Row><Row>
 
   <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"30%"}}>
@@ -22,7 +22,7 @@ SwordMasters of Ginaz</h1></Row><Row>
 <br></br>
 
 <Row>
-<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"45%"}}>
+<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"25%"}}>
 Web Based Desktop RPG. 
 </h1></Row>
 <br></br>
@@ -43,7 +43,7 @@ animationOut="fadeInDownBig" isVisible={true}>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 style={{marginLeft:"-5%"}}
 ></iframe><br></br>
-<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"50%"}}>Tech Used: React, CSS, Firebase</p><br/>
+<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"30%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"40%"}} 
 alt="gitLogo"/></a>
@@ -60,7 +60,7 @@ alt="gitLogo"/></a>
   <br/>
     <Row>
   <h2 style={{marginLeft:"0%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>See The latest housing trends in San Diego</h2><br></br>
- <Row><p style={{marginLeft:"60%"}}>Tech Used: Ajax, Chart.js</p>
+ <Row><p style={{marginLeft:"30%"}}>Tech Used: Ajax, Chart.js</p>
   </Row><br/><br/><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"40%"}} 
 alt="gitLogo"/></Row>
@@ -81,7 +81,7 @@ alt="gitLogo"/></Row>
   </br>
   <Row>
   <p>Tech Used: Ajax, Javascript</p><br/><img src={require("../img/gitLogo.png")} 
-style={{width:"10%", maxHeight:200, marginLeft:"40%"}} 
+style={{width:"10%", maxHeight:200, marginLeft:"30%"}} 
 alt="gitLogo"/></Row>
   <Row>
   {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}

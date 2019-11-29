@@ -8,12 +8,12 @@ using System;
             Console.Write("Enter the number of elements:");
             number= int.Parse(Console.Read());
             Console.Write(n1+""+n2+"");
-            for(i=2;<number;++i)//loop starts from 2
-{n3=n1+n2;
-Console.Write(n3+"");
-n1=n2;
-n2=n3;
+                for(i=2;<number;++i)//loop starts from 2
+    {
+    n3=n1+n2;
+    Console.Write(n3+"");
+    n1=n2;
+    n2=n3;
 
-}
-
-        }
+    }
+  }

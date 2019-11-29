@@ -34,9 +34,9 @@ function Header (){
           </h1>    </Col></Animated></Col>
       <Col>
         <p className="text-justify"
-            style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
+            style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", marginLeft:"3%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
               >
-        I am currently working as Coding Instructor at The Coder School of La Jolla, California. 
+              I am currently working as Coding Instructor at The Coder School of La Jolla, California. 
         </p>
         <p style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
             Some examples of my work are listed below, which are a mix of Node.JS and React.</p><br/>

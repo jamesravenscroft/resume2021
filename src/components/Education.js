@@ -11,13 +11,13 @@ function Education(){
         <h1 style={{marginLeft:"10%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Education:</h1>
     </Row>
     <Row>
-        <Col style ={{width:"40%", marginLeft:"10%", float:"left"}}><img src={require("../img/MCClogo.jpg")} 
+        <Col style ={{width:"40%", maxWidth:"50%",marginLeft:"5%", float:"left"}}><img src={require("../img/MCClogo.jpg")} 
         style={{width:"80%", marginTop:"8%"}}/>
         <br></br><p style={{color:"black"}}>Communications Major 2008-2010</p>
         </Col>
         
         <Col style={{width:"50%", float:"right"}}> <img src={require("../img/ucsd1.png")}
-        style={{marginTop:"0%"}}/>
+        style={{marginTop:"0%", maxWidth:"45%"}}/>
         <br/><p style={{color:"black", whiteSpace:"normal"}}>Full Stack Web Developer Certifaction 2019</p>
         </Col>
     </Row>

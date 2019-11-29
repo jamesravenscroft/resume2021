@@ -41,7 +41,7 @@ Friend Finder will help find your best friend based on our survey.
 <Row>
 <Col><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
-          <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachMedium.PNG")} style={{width:"55%"}} alt="dune"/>
+          <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachThumb.PNG")} style={{width:"55%"}} alt="dune1"/>
        <p class=" pb-100">Dune Fightin Game<br></br>
       Become the Pinnacle of Human evolution.<p>jQuery</p>				
          </p>						
@@ -72,7 +72,7 @@ See gifs from great directors, or add your own.
 </Row>
 <Row>
 <a href="https://jamesravenscroft.github.io/trainScheduler/">
-<img class="img-fluid" src={require("../img/fvCover.jpg")} style={{width:"25%"}} alt="dune"/>
+<img class="img-fluid" src={require("../img/fvCover.jpg")} style={{width:"25%"}} alt="voyage"/>
   <p class=" pb-100"  style={{color:"black"}}>Fantastic Voyage<br></br>
 Train Scheduler	
     </p>
