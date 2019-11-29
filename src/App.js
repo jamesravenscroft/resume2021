@@ -41,30 +41,14 @@ function App() {
     //     <img src={logo} className="App-logo" alt="logo" />
     //     <p>
     //       Edit <code>src/App.js</code> and save to reload.   */}
-  <Container className="topper" >
-   
-
-    {/* <BackgroundImage/> */}
-  {/* <h3>Corner menu example</h3>
-       
-            <MotionMenu
-              className="btmRight"
-              btns={[btn,btn,btn,btn]}
-              spaceBetween={22}
-              btnRadius={20}
-              mainBtnRadius={30}
-              angle={37}
-              angleOffset={45} /> */}
-      
+  <Container className="topper" style={{width:"100%"}}>
 
       <Nav 
       // variant="pills"
   activeKey="/home"
   onSelect={selectedKey => alert(`selected ${selectedKey}`)}
-style={{
-  
-  background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
->
+style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
+    >
   <Nav.Item>
     <Nav.Link 
     style={{color:"white"}}
@@ -95,7 +79,7 @@ style={{
 <Skill/>
 <Projects/>
 <OtherProjects/>
-<Row ><Col>
+{/* <Row ><Col>
     <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Services:</h1><br></br>
 <br></br>
 <h2 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Web Site:</h2><br></br>
@@ -117,7 +101,7 @@ style={{
   </Col>
 </Row>
 </Col>
-</Row>
+</Row> */}
 </Container>
 </div>
   )}

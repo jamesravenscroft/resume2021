@@ -3,12 +3,12 @@ import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
-
+import '../App.css';
 function OtherProjects(){
 return(
 <div>
 <Container style={{backgroundColor:"white"}}>
-    <Row><h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
+    <Row style={{width:"100%"}}><h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
 <Row>
 
 {/* 1 */}
@@ -16,7 +16,7 @@ return(
 
  <a target="_blank" href="https://jamesravenscroft.github.io/Responsive-Portfolio/assets/Shape_Hunter/index.html">
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
-    style={{width:"80%"}}/>
+    style={{width:"30%", maxWidth:100}}/>
 <br/>
 Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 </Col>

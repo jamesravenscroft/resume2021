@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Slider from '../slider';
 import {Animated} from "react-animated-css";
+import '../App.css';
 // import App from "../src/App"
 // import Journal from "./Journal";
 
