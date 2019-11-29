@@ -76,7 +76,7 @@ alt="gitLogo"/></Row>
   style={{  borderRadius: 85, width:"80%"}}
    />
 </a>
-<h1 style={{marginLeft:"15%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>Find a holiday and a place to celebrate</h1>
+<h1 style={{marginLeft:"5%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>Find a holiday and a place to celebrate</h1>
   <br>
   </br>
   <Row>
