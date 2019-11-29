@@ -81,7 +81,7 @@ alt="gitLogo"/></Row>
   </br>
   <Row>
   <p>Tech Used: Ajax, Javascript</p><br/><img src={require("../img/gitLogo.png")} 
-style={{width:"10%", marginLeft:"40%"}} 
+style={{width:"10%", maxHeight:200, marginLeft:"40%"}} 
 alt="gitLogo"/></Row>
   <Row>
   {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}
@@ -94,7 +94,7 @@ alt="gitLogo"/></Row>
 </Row>
 <Row><p>Tech Used: Node.JS, MySQL, MongoDB, Sequelize</p><br/><img src={require("../img/gitLogo.png")} 
 
-style={{width:"10%", marginLeft:"40%"}} 
+style={{width:"10%", marginLeft:"40%",maxHeight:200, }} 
 alt="gitLogo"/></Row>
 {/* </Grid> */}
 <Row><Col>
@@ -110,7 +110,7 @@ alt="gitLogo"/></Row>
 <br></br>
    <img src={require("../img/pic4905412.jpg")} alt="animalc2" width="55%" />
    </Row><img src={require("../img/gitLogo.png")}
-style={{width:"10%", marginLeft:"40%"}} 
+style={{width:"10%", marginLeft:"40%",maxHeight:200}} 
 alt="gitLogo"/><br/>
 </Col>
 <Row>
