@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function Education(){
     return(
-<div style={{backgroundColor:"white", width:"75%", marginLeft:"10%", borderRadius:"15%", minWidth:500, whiteSpace:"normal"}}>
+<div style={{backgroundColor:"white", width:"75%", marginLeft:"1%", borderRadius:"15%", minWidth:375, whiteSpace:"normal"}}>
     <Row>
         <h1 style={{marginLeft:"10%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Education:</h1>
     </Row>

@@ -8,25 +8,25 @@ function OtherProjects(){
 return(
 <div>
 <Container style={{backgroundColor:"white"}}>
-    <Row style={{width:"100%"}}><h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
+    <Row style={{MaxWidth:"100%"}}><h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
 <Row>
 
 {/* 1 */}
-<Col>
+<Col style={{float:"left"}}>
 
  <a target="_blank" href="https://jamesravenscroft.github.io/Responsive-Portfolio/assets/Shape_Hunter/index.html">
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
-    style={{width:"30%", maxWidth:100}}/>
+    style={{width:"100%", maxWidth:100}}/>
 <br/>
 Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 </Col>
 
 <Col><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
-   <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" width="100%"/> </a> 
+   <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" style={{width:"30%"}}/> </a> 
    <p style={{color:"black"}}> Legend of Zelda Word Guess</p></Col>
-<Col>
+<Col style={{float:"right"}}>
 <img src="https://ak2.picdn.net/shutterstock/videos/16196992/thumb/11.jpg" alt="bestFriends"
-    style={{width:"50%"}}
+    style={{width:"30%"}}
     />
 <h4 class="pt-100 pb-30"><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
 <p style={{color:"black"}}>

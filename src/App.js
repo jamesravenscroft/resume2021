@@ -41,8 +41,8 @@ function App() {
     //     <img src={logo} className="App-logo" alt="logo" />
     //     <p>
     //       Edit <code>src/App.js</code> and save to reload.   */}
-  <Container className="topper" style={{width:"100%"}}>
-
+  <Container style={{width:"100%", minWidth:375}}>
+<Row className="topper">
       <Nav 
       // variant="pills"
   activeKey="/home"
@@ -51,21 +51,22 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
     >
   <Nav.Item>
     <Nav.Link 
-    style={{color:"white"}}
+    style={{color:"white", float:"left", marginLeft:"10%"}}
     href="/home">Home</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link style={{color:"white"}} href="mailto:hello@jamesravenscroft.com">Contact</Nav.Link>
+    <Nav.Link style={{color:"white", float:"left", marginLeft:"5%"}} href="mailto:hello@jamesravenscroft.com">Contact</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link style={{color:"white"}} href="https://swordmasters-august.firebaseapp.com">Recent Projects</Nav.Link>
+    <Nav.Link style={{color:"white",float:"left", marginLeft:"5%"}} href="https://swordmasters-august.firebaseapp.com">Recent Projects</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link style={{color:"white"}} eventKey="disabled" disabled>
+    <Nav.Link style={{color:"white",float:"left", marginLeft:"5%"}} eventKey="disabled" disabled>
       James Ravenscroft III
     </Nav.Link>
   </Nav.Item>
 </Nav>
+</Row>
     {/* <Navbar></Navbar> */}
  <Header/>
   

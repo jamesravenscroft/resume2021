@@ -18,12 +18,12 @@ function Projects (){
   <h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
   </Row><Row>
 
-  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"30%"}}>
+  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"30%",whiteSpace:"normal"}}>
 SwordMasters of Ginaz</h1></Row><Row>
 <br></br>
 
 <Row>
-<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"25%"}}>
+<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"25%", whiteSpace:"normal"}}>
 Web Based Desktop RPG. 
 </h1></Row>
 <br></br>
@@ -42,11 +42,11 @@ animationOut="fadeInDownBig" isVisible={true}>
 <img src={require("./../img/React.js_logo-512.png")} alt="reactLogo" style={{height:50, marginRight:"20%"}}/> */}
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
-style={{marginLeft:"-5%"}}
+style={{marginLeft:"-5%", maxWidth:"100%"}}
 ></iframe><br></br>
-<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"30%"}}>Tech Used: React, CSS, Firebase</p><br/>
+<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"20%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
-style={{width:"10%", marginLeft:"40%"}} 
+style={{width:"10%", marginLeft:"30%"}} 
 alt="gitLogo"/></a>
 </Row>
 </Row>
