@@ -41,7 +41,7 @@ animationOut="fadeInDownBig" isVisible={true}>
 <img src={require("./../img/React.js_logo-512.png")} alt="reactLogo" style={{height:50, marginRight:"20%"}}/> */}
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
-style={{marginLeft:"15%"}}
+style={{marginLeft:"-5%"}}
 ></iframe><br></br>
 <Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"50%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 

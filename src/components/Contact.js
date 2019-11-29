@@ -7,10 +7,10 @@ import {Animated} from "react-animated-css";
 
 function Contact(){
     return(
-        <div>
+        <div style={{marginTop:"10%"}}>
  
   <Row>    
-    <Col><h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Contact:</h1><br></br>
+    <Col><h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>Contact:</h1><br></br>
     <p style={{color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
         email: hello@jamesravenscroft3.com</p>
     <br></br>
