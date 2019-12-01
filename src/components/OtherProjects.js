@@ -8,7 +8,7 @@ function OtherProjects(){
 return(
 <div>
 <Container style={{backgroundColor:"white"}}>
-    <Row style={{MaxWidth:"100%"}}><h1 style={{marginLeft:"30%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
+    <Row style={{MaxWidth:"100%"}}><h1 style={{marginLeft:"3%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
 <Row>
 
 {/* 1 */}
