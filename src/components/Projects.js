@@ -99,11 +99,10 @@ alt="gitLogo"/></Row>
 <Slider/>
 </Row>
 <Row><p>Tech Used: Node.JS, MySQL, MongoDB, Sequelize</p><br/><img src={require("../img/gitLogo.png")} 
-
 style={{width:"10%", marginLeft:"40%",maxHeight:200, }} 
 alt="gitLogo"/></Row>
 {/* </Grid> */}
-<Row><Col>
+<Row><Col style={{alignContent:"center", maxWidth:"70%"}}>
  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
    
    Coming Soon: 
@@ -111,7 +110,7 @@ alt="gitLogo"/></Row>
    <br></br>
    <a href="https://ravenscroftgames.firebaseapp.com/">
      <p style={{color:"white",WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1 }}>Animalchemists</p></a></h1><Row>
-   <img src={require("../img/pic4767592.png")} alt="animalc1" style={{width:"25%", maxWidth:"40%", float:"left"}}/>
+   <img src={require("../img/pic4767592.png")} alt="animalc1" style={{width:"25%", maxWidth:"40%", float:"left", marginLeft:"10%"}}/>
 
 <br></br>
    <img src={require("../img/pic4905412.jpg")} alt="animalc2"  style={{width:"25%", maxWidth:"40%"}}/>

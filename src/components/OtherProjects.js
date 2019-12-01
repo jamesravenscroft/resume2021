@@ -13,27 +13,27 @@ return(
 
 {/* 1 */}
 <Col sm
-    // style={{float:"left"}}
+    style={{float:"left", width:"30%"}}
     >
 
  <a target="_blank" href="https://jamesravenscroft.github.io/Responsive-Portfolio/assets/Shape_Hunter/index.html">
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
-    style={{width:"100%", maxWidth:100}}/>
+    style={{width:"100%", maxWidth:150}}/>
 <br/>
 Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 </Col>
 
-<Col sm><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
-   <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" style={{width:"30%"}}/> </a> 
+<Col sm style={{float:"center", width:"30%"}}><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
+   <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" style={{width:"70%"}}/> </a> 
    <p style={{color:"black"}}> Legend of Zelda Word Guess</p></Col>
 <Col sm
-// style={{float:"right"}}
+style={{float:"right", width:"30%"}}
 >
 <img src="https://ak2.picdn.net/shutterstock/videos/16196992/thumb/11.jpg" alt="bestFriends"
-    style={{width:"30%"}}
+    style={{width:"70%"}}
     />
 <h4 class="pt-100 pb-30"><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
-<p style={{color:"black"}}>
+<p style={{color:"black", whiteSpace:"normal"}}>
 Friend Finder will help find your best friend based on our survey.		
 </p><br></br><p  style={{color:"black"}}>Javascript, Ajax</p>
 {/* https://github.com/jamesravenscroft/FriendFinder */}
@@ -44,14 +44,18 @@ Friend Finder will help find your best friend based on our survey.
 
 
 <Row>
-<Col sm><a href="https://jamesravenscroft.github.io/unit-4-game/">
+<Col sm
+    style={{float:"left", width:"30%"}}
+    ><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
           <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachThumb.PNG")} style={{width:"55%"}} alt="dune1"/>
        <p class=" pb-100">Dune Fightin Game<br></br>
       Become the Pinnacle of Human evolution.<p>jQuery</p>				
          </p>						
      </a></Col>
-<Col sm>    
+     <Col sm
+style={{float:"right", width:"30%"}}
+>   
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
      <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"55%"}} alt="dune"/>
@@ -62,7 +66,9 @@ Can you master the litany against fear?
 </a>
 
 </Col>
-<Col sm>
+<Col sm
+style={{float:"right", width:"30%"}}
+>
 <img src={require("../img/gifTime.PNG")} alt="gifTime"
     style={{width:"60%"}}
     />

@@ -17,7 +17,7 @@ function Header (){
           <Col md={4}>
             <Animated animationIn="bounceInLeft" animationInDelay="550" animationOut="fadeOut" isVisible={true}>
           <div>
-          <img src={require("../img/suit.PNG")} alt="suit"
+          <img src={require("../img/suit.jpg")} alt="suit"
           style={{width:"30%", float:"left", borderRadius:35, maxWidth:"40%"}}/>
           </div></Animated>
           </Col>
