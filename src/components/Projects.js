@@ -12,18 +12,18 @@ import '../App.css';
 function Projects (){
     return(
     <div>
-      <Container style={{width:"90%", whiteSpace:"normal"}}>
+      <Container style={{width:"95%", whiteSpace:"normal", alignContent:"Center"}}>
         {/* <Grid> */}
 <Row>
-  <h1 style={{marginLeft:"10%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
+  <h1 style={{marginLeft:"1%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
   </Row><Row>
 
-  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"10%",whiteSpace:"normal"}}>
+  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"1%%",whiteSpace:"normal"}}>
 SwordMasters of Ginaz</h1></Row><Row>
 <br></br>
 
 <Row>
-<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"10%", whiteSpace:"normal"}}>
+<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"1%", whiteSpace:"normal"}}>
 Web Based Desktop RPG. 
 </h1></Row>
 <br></br>
@@ -41,9 +41,9 @@ Web Based Desktop RPG.
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 style={{marginLeft:"-5%", maxWidth:"100%"}}
 ></iframe><br></br>
-<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"10%"}}>Tech Used: React, CSS, Firebase</p><br/>
+<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
-style={{width:"10%", marginLeft:"10%"}} 
+style={{width:"10%", marginLeft:"1%"}} 
 alt="gitLogo"/></a>
 </Row>
 </Row>
@@ -60,7 +60,7 @@ alt="gitLogo"/></a>
   <h2 style={{marginLeft:"0%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black" , whiteSpace:"normal"}}>See The latest housing trends in San Diego</h2><br></br>
  <Row><p style={{marginLeft:"30%"}}>Tech Used: Ajax, Chart.js</p>
   </Row><br/><br/><img src={require("../img/gitLogo.png")} 
-style={{width:"10%", marginLeft:"40%"}} 
+style={{width:"10%", marginLeft:"1%"}} 
 alt="gitLogo"/></Row>
   <br>
   </br>
@@ -68,12 +68,19 @@ alt="gitLogo"/></Row>
 
   {/* <p>Tech used: Chart.js MySQL</p> */}
 </Row>
-<Row><br/><h1 style={{marginLeft:"15%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>
-  ReasonToDrink.Fun</h1><a href="https://ReasonToDrink.Fun"><br/><br/>
-  <img src={require("../../src/img/cheers.gif")} alt="reasonToDrinkLogo" width="40%" 
-  style={{  borderRadius: 85, width:"80%"}}
+<Row><br/>
+<a href="https://ReasonToDrink.Fun"><h1 style={{marginLeft:"1%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>
+  ReasonToDrink.Fun</h1></a><br/><br/>
+  {/* <video width="320" height="240" controls autoplay>
+  <source src="../img/cheers.mp4" type="video/mp4"/>
+  <source src="movie.ogg" type="video/ogg">
+
+  </video> */}
+
+  <img src={require("../../src/img/beerMugs.jpg")} alt="reasonToDrinkLogo" width="40%" 
+  style={{  borderRadius: 85, width:"30%"}}
    />
-</a>
+
 <h1 style={{marginLeft:"5%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black", whiteSpace:"normal"}}>Find a holiday and a place to celebrate</h1>
   <br>
   </br>

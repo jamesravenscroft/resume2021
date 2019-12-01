@@ -6,9 +6,9 @@ import Nav from 'react-bootstrap/Nav';
 
 function Education(){
     return(
-<div style={{backgroundColor:"white", width:"75%", marginLeft:"1%", borderRadius:"15%", minWidth:375, whiteSpace:"normal"}}>
+<div style={{alignContent:"Center", backgroundColor:"white", width:"75%", marginLeft:"1%", borderRadius:"15%", minWidth:375, whiteSpace:"normal"}}>
     <Row>
-        <h1 style={{marginLeft:"10%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Education:</h1>
+        <h1 style={{marginLeft:"1%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Education:</h1>
     </Row>
     <Row>
         <Col style ={{width:"40%", maxWidth:"50%",marginLeft:"5%", float:"left"}}><img src={require("../img/MCClogo.jpg")} 
