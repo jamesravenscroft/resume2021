@@ -12,7 +12,9 @@ return(
 <Row>
 
 {/* 1 */}
-<Col style={{float:"left"}}>
+<Col sm
+    // style={{float:"left"}}
+    >
 
  <a target="_blank" href="https://jamesravenscroft.github.io/Responsive-Portfolio/assets/Shape_Hunter/index.html">
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
@@ -21,10 +23,12 @@ return(
 Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 </Col>
 
-<Col><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
+<Col sm><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
    <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" style={{width:"30%"}}/> </a> 
    <p style={{color:"black"}}> Legend of Zelda Word Guess</p></Col>
-<Col style={{float:"right"}}>
+<Col sm
+// style={{float:"right"}}
+>
 <img src="https://ak2.picdn.net/shutterstock/videos/16196992/thumb/11.jpg" alt="bestFriends"
     style={{width:"30%"}}
     />
@@ -32,6 +36,7 @@ Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
 <p style={{color:"black"}}>
 Friend Finder will help find your best friend based on our survey.		
 </p><br></br><p  style={{color:"black"}}>Javascript, Ajax</p>
+{/* https://github.com/jamesravenscroft/FriendFinder */}
 </Col>
 {/* 2 */}
 
@@ -39,14 +44,14 @@ Friend Finder will help find your best friend based on our survey.
 
 
 <Row>
-<Col><a href="https://jamesravenscroft.github.io/unit-4-game/">
+<Col sm><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
           <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachThumb.PNG")} style={{width:"55%"}} alt="dune1"/>
        <p class=" pb-100">Dune Fightin Game<br></br>
       Become the Pinnacle of Human evolution.<p>jQuery</p>				
          </p>						
      </a></Col>
-<Col>    
+<Col sm>    
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
      <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"55%"}} alt="dune"/>
@@ -57,7 +62,7 @@ Can you master the litany against fear?
 </a>
 
 </Col>
-<Col>
+<Col sm>
 <img src={require("../img/gifTime.PNG")} alt="gifTime"
     style={{width:"60%"}}
     />
@@ -65,12 +70,13 @@ Can you master the litany against fear?
 <p style={{color:"black"}}>
 See gifs from great directors, or add your own.		
 </p><br></br><p style={{color:"black"}}>Javascript, Ajax</p>
-
+{/* https://github.com/jamesravenscroft/gifTime */}
 </Col>
 
 
 </Row>
 <Row>
+    <Col sm>
 <a href="https://jamesravenscroft.github.io/trainScheduler/">
 <img class="img-fluid" src={require("../img/fvCover.jpg")} style={{width:"25%"}} alt="voyage"/>
   <p class=" pb-100"  style={{color:"black"}}>Fantastic Voyage<br></br>
@@ -78,7 +84,8 @@ Train Scheduler
     </p>
     <p style={{color:"black"}}>Firebase</p>						
 </a>
-
+{/* https://github.com/jamesravenscroft/trainScheduler */}
+</Col>
 </Row>
 
 

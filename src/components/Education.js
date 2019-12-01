@@ -22,8 +22,8 @@ function Education(){
         </Col>
     </Row>
     <Row>
-    <h2 style={{marginLeft:"10%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Other Education:</h2>
-    <p style={{marginLeft:"10%", color:"black", whiteSpace:"normal"}}>National Academy of Sport Medicine, CPT, CES. Fitness Together Leadership Training</p>
+    <h2 style={{marginLeft:"10%", marginTop:"-3%", WebkitTextStroke:1, WebkitTextStrokeColor:"black"}}>Other Education:</h2>
+    <p style={{marginLeft:"0%", color:"black", whiteSpace:"normal"}}>National Academy of Sport Medicine, CPT, CES. Fitness Together Leadership Training</p>
     </Row>
 
 

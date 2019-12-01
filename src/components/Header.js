@@ -24,7 +24,7 @@ function Header (){
 
           
          
-          <Animated animationIn="bounceInRight" animationInDelay="550" animationOut="fadeOut" isVisible={true}>
+         
           <Col  lg={{ span: 6,  whiteSpace: 'normal', float:"right"}}>
           {/* <Col  style={{whiteSpace:"normal"}}> */}
           <h1 style={{WebkitTextStrokeColor:"black", maxWidth:"55%", float:"right", marginTop:"-30%", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>
@@ -35,17 +35,17 @@ function Header (){
           {/* </Row>
           <Row> */}
             {/* <Col md={8}> */}
-        <p className="text-justify" style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
+        <p className="text-justify" style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
               >
         I am currently working as Coding Instructor at The Coder School of La Jolla, California. 
         </p>
-        <p style={{whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
+        <p style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
             Some examples of my work are listed below, which are a mix of Node.JS and React.</p><br/>
-            <p style={{ whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
+            <p style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
             When I'm not coding I enjoy writing for independent films, bike riding and spending time with my family.
             </p>     </Col>
             {/* </Col> */}
-            </Animated>
+ 
          
   </Row>
   {/* </Col></Animated> */}
