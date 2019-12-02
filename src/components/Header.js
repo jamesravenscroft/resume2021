@@ -10,8 +10,7 @@ function Header (){
     return(
     <div>
         <Container className="bg" style={{whiteSpace: 'normal'}}>
-{/* <Animated animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
-    <Col> */}
+
 
       <Row>
           <Col md={4}>
@@ -26,15 +25,13 @@ function Header (){
          
          
           <Col  lg={{ span: 6,  whiteSpace: 'normal', float:"right"}}>
-          {/* <Col  style={{whiteSpace:"normal"}}> */}
+   
           <h1 style={{WebkitTextStrokeColor:"black", maxWidth:"55%", float:"right", marginTop:"-30%", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>
               Hello there!<br></br> My name is James Ravenscroft III<br>
           </br>
           Full Stack Web Developer
           </h1>    
-          {/* </Row>
-          <Row> */}
-            {/* <Col md={8}> */}
+      
         <p className="text-justify" style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}} 
               >
         I am currently working as Coding Instructor at The Coder School of La Jolla, California. 
@@ -48,7 +45,7 @@ function Header (){
  
          
   </Row>
-  {/* </Col></Animated> */}
+
 </Container>
  </div>)};
   export default Header

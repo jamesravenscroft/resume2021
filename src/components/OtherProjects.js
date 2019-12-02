@@ -20,23 +20,23 @@ return(
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
     style={{width:"100%", maxWidth:150}}/>
 <br/>
-<p style={{color:"black", whiteSpace:"normal"}}>Shape Hunter <br/> Kids Game!<br></br><p style={{color:"black", whiteSpace:"normal"}}>A simple matching game using CSS Shapes, HTML5 and Javascript.</p>
+<h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>Shape Hunter</h4><br/><p style={{color:"black", whiteSpace:"normal"}}> Kids Game!<br></br><p style={{color:"black", whiteSpace:"normal"}}>A simple matching game using CSS Shapes, HTML5 and Javascript.</p>
 </p></a></Col>
 
 <Col sm style={{float:"center", width:"30%"}}><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
    <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" style={{width:"70%"}}/> </a> 
-   <p style={{color:"black", whiteSpace:"normal"}}> Legend of Zelda Word Guess</p><br/><p style={{color:"black", whiteSpace:"normal"}}>Word Guessing game using Javascript.</p></Col>
+   <h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>  Legend of Zelda Word Guess</h4><br/><p style={{color:"black", whiteSpace:"normal"}}>Word Guessing game using Javascript.</p></Col>
 <Col sm
 style={{float:"right", width:"30%"}}
 >
 <img src="https://ak2.picdn.net/shutterstock/videos/16196992/thumb/11.jpg" alt="bestFriends"
     style={{width:"70%"}}
     />
-<h4 class="pt-100 pb-30"><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
+<h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
 <p style={{color:"black", whiteSpace:"normal"}}>
 Friend Finder will help find your best friend based on our survey.		
 </p><br></br><p  style={{color:"black", whiteSpace:"normal"}}>A survey matching tool using jQuery and Ajax,</p>
-{/* https://github.com/jamesravenscroft/FriendFinder */}
+
 </Col>
 {/* 2 */}
 
@@ -49,8 +49,8 @@ Friend Finder will help find your best friend based on our survey.
     ><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
           <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachThumb.PNG")} style={{width:"55%"}} alt="dune1"/>
-       <p class=" pb-100" style={{color:"black"}}>Dune Fightin Game<br></br>
-      Become the Pinnacle of Human evolution.<br/>A fighting game using jQuery.		
+          <h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>Dune Fighting Game</h4><br></br>
+          <p class=" pb-100" style={{color:"black", whiteSpace:"normal"}}> Become the Pinnacle of Human evolution.<br/>A fighting game using jQuery.		
          </p>						
      </a></Col>
      <Col sm
@@ -59,10 +59,11 @@ style={{float:"right", width:"30%"}}
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
      <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"55%"}} alt="dune"/>
-  <p class=" pb-100"  style={{color:"black", whiteSpace:"normal"}}>The Gom Jabbar<br></br>
-Can you master the litany against fear?				
-    </p>
-    <p style={{color:"black", whiteSpace:"normal"}}>A trivia game using Javascript and Timers.</p>						
+     <h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>
+  The Gom Jabbar</h4><br></br>
+  <p class=" pb-100"  style={{color:"black", whiteSpace:"normal"}}>Can you master the litany against fear?				
+    
+    A trivia game using Javascript and Timers.</p>						
 </a>
 
 </Col>
@@ -72,11 +73,11 @@ style={{float:"right", width:"30%"}}
 <img src={require("../img/gifTime.PNG")} alt="gifTime"
     style={{width:"60%"}}
     />
-<h4 class="pt-100 pb-30"><a href="https://jamesravenscroft.github.io/gifTime/">Bestest Directors Gifs</a></h4>
+<h4 class="pt-100 pb-30" style={{whiteSpace:"normal"}}><a href="https://jamesravenscroft.github.io/gifTime/">Bestest Directors Gifs</a></h4>
 <p style={{color:"black", whiteSpace:"normal"}}>
 See gifs from great directors, or add your own.		
 </p><br></br><p style={{color:"black", whiteSpace:"normal"}}>A Giphy web scraper using Javascript and Ajax.</p>
-{/* https://github.com/jamesravenscroft/gifTime */}
+
 </Col>
 
 
@@ -85,12 +86,13 @@ See gifs from great directors, or add your own.
     <Col sm>
 <a href="https://jamesravenscroft.github.io/trainScheduler/">
 <img class="img-fluid" src={require("../img/fvCover.jpg")} style={{width:"25%"}} alt="voyage"/>
-  <p class=" pb-100"  style={{color:"black", whiteSpace:"normal"}}>Fantastic Voyage<br></br>
-Train Scheduler	
+<h4 class="pt-100 pb-30" style={{whiteSpace:"normal"}}>
+Fantastic Voyage</h4><br></br>
+<p class=" pb-100"  style={{color:"black", whiteSpace:"normal"}}>Train Scheduler	
     </p>
     <p style={{color:"black", whiteSpace:"normal"}}>Update the train schedule using Firebase Firestore.</p>						
 </a>
-{/* https://github.com/jamesravenscroft/trainScheduler */}
+
 </Col>
 </Row>
 
@@ -105,66 +107,3 @@ Train Scheduler
 };
 export default OtherProjects
 
-
-
-// <div class="dunebg">
-// <br><h1 class="whiteout">Dune Series Games - Based on the Novels by Frank Herbert</h1>
-// <div class="single-project">
-//     <h4 class="pt-30 pb-30"><a href="https://jamesravenscroft.github.io/unit-4-game/">The Ballad of the Kwizats Haderach</h4>
-//     <p class=" pb-100">
-// Become the Pinnacle of Human evolution.				
-//     </p>								
-//     <img class="img-fluid" src="img/duneBalladOfKwizatzHarderachMedium.PNG" alt="" href="https://jamesravenscroft.github.io/unit-4-game/">
-// </a>
-// </div>
-// <div class="single-project">
-//     <h4 class="pt-100 pb-30"><a href="https://jamesravenscroft.github.io/TriviaGame/">The Gom Jabbar</h4>
-//     <p class=" pb-30">
-// You are smart. You are brave. Can you pass this test with your life on the line?			
-//     </p>
-//     <img class="img-fluid" src="img/GomJabbar.PNG" alt="">	
-// </a>							
-// </div>		
-// </div>
-// <!--dune end-->						            
-// <div class="col-lg-6 project-right">
-// <div class="single-project">
-// <h4 class="pt-30 pb-30"><a href="https://market-snapshot.herokuapp.com/">Market Snapshot</a></h4>
-// <p class=" pb-100">
-// Get an at-a-glance view of all Home and Condo Sales in San Diego County!
-// </p>								
-// <img class="img-fluid" src="img/Market_snap_logo.PNG" alt="">
-// </div>
-// <div class="single-project">
-// <h4 class="pt-100 pb-30"><a href="https://github.com/jamesravenscroft/liriHomeworki">Node CLI App</a></h4>
-// <p class=" pb-30">
-// Find concerts, movies and music all using the command line in Terminal!
-// </p>
-// <img class="img-fluid" src="https://github.com/gregoryschmidt/market_snapshot/blob/master/public/images/Market_snap_logo.png" alt="Market Snapshot">		      
-
-// </div>
-// <!--dune end-->															
-// </div>
-// </div>
-// </div>	
-
-// <div class="single-project">
-{/* <img src="https://ak2.picdn.net/shutterstock/videos/16196992/thumb/11.jpg" alt="bestFriends">
-<h4 class="pt-100 pb-30"><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
-<p>
-Friend Finder will help find your best friend based on our survey.		
-</p>
-// </div>		 */}
-
-// <div class="gallery">
-//     <a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
-//    <div class="slideUp">  <img src="assets/images/zeldaWordGuessGameThumb.PNG" alt="Mountains" width="300" height="200">
-//     </a>
-//     <div class="desc">Legend of Zelda Word Guess</div></div>
-//   </div>
-// </div>
-
-
-
-// gom jabbar
-//https://jamesravenscroft.github.io/TriviaGame/
