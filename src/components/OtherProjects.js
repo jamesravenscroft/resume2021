@@ -20,12 +20,12 @@ return(
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
     style={{width:"100%", maxWidth:150}}/>
 <br/>
-Shape Hunter <br/> Kids Game!</a><br></br><p style={{color:"black"}}>HTML5</p>
+<p style={{color:"black"}}>Shape Hunter</p> <br/> Kids Game!</a><br></br><p style={{color:"black", whiteSpace:"normal"}}>A simple matching game using CSS Shapes, HTML5 and Javascript.</p>
 </Col>
 
 <Col sm style={{float:"center", width:"30%"}}><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
    <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" style={{width:"70%"}}/> </a> 
-   <p style={{color:"black"}}> Legend of Zelda Word Guess</p></Col>
+   <p style={{color:"black"}}> Legend of Zelda Word Guess</p><br/><p style={{color:"black", whiteSpace:"normal"}}>Word Guessing game using Javascript.</p></Col>
 <Col sm
 style={{float:"right", width:"30%"}}
 >
@@ -35,7 +35,7 @@ style={{float:"right", width:"30%"}}
 <h4 class="pt-100 pb-30"><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
 <p style={{color:"black", whiteSpace:"normal"}}>
 Friend Finder will help find your best friend based on our survey.		
-</p><br></br><p  style={{color:"black"}}>Javascript, Ajax</p>
+</p><br></br><p  style={{color:"black"}}>A survey matching tool using jQuery and Ajax,</p>
 {/* https://github.com/jamesravenscroft/FriendFinder */}
 </Col>
 {/* 2 */}
@@ -49,8 +49,8 @@ Friend Finder will help find your best friend based on our survey.
     ><a href="https://jamesravenscroft.github.io/unit-4-game/">
   		
           <img class="img-fluid" src={require("../img/duneBalladOfKwizatzHarderachThumb.PNG")} style={{width:"55%"}} alt="dune1"/>
-       <p class=" pb-100">Dune Fightin Game<br></br>
-      Become the Pinnacle of Human evolution.<p>jQuery</p>				
+       <p class=" pb-100" style={{color:"black"}}>Dune Fightin Game<br></br>
+      Become the Pinnacle of Human evolution.<br/>A fighting game using jQuery.		
          </p>						
      </a></Col>
      <Col sm
@@ -59,10 +59,10 @@ style={{float:"right", width:"30%"}}
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
      <img class="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"55%"}} alt="dune"/>
-  <p class=" pb-100"  style={{color:"black"}}>The Gom Jabbar<br></br>
+  <p class=" pb-100"  style={{color:"black", whiteSpace:"normal"}}>The Gom Jabbar<br></br>
 Can you master the litany against fear?				
     </p>
-    <p style={{color:"black"}}>Javascript, Timers</p>						
+    <p style={{color:"black", whiteSpace:"normal"}}>A trivia game using Javascript and Timers.</p>						
 </a>
 
 </Col>
@@ -73,9 +73,9 @@ style={{float:"right", width:"30%"}}
     style={{width:"60%"}}
     />
 <h4 class="pt-100 pb-30"><a href="https://jamesravenscroft.github.io/gifTime/">Bestest Directors Gifs</a></h4>
-<p style={{color:"black"}}>
+<p style={{color:"black", whiteSpace:"normal"}}>
 See gifs from great directors, or add your own.		
-</p><br></br><p style={{color:"black"}}>Javascript, Ajax</p>
+</p><br></br><p style={{color:"black"}}>A Giphy web scraper using Javascript and Ajax.</p>
 {/* https://github.com/jamesravenscroft/gifTime */}
 </Col>
 
@@ -88,7 +88,7 @@ See gifs from great directors, or add your own.
   <p class=" pb-100"  style={{color:"black"}}>Fantastic Voyage<br></br>
 Train Scheduler	
     </p>
-    <p style={{color:"black"}}>Firebase</p>						
+    <p style={{color:"black", whiteSpace:"normal"}}>Update the train schedule using Firebase Firestore.</p>						
 </a>
 {/* https://github.com/jamesravenscroft/trainScheduler */}
 </Col>
