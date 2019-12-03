@@ -92,7 +92,7 @@ alt="gitLogo"/></Row>
   <Row>
   {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}
 </Row></Row>
-<Row 
+{/* <Row 
       // style={{width:"80%"}}
   >
     <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, whiteSpace:"normal"}}>Very Exciting Back End Slideshow</h1>
@@ -100,7 +100,7 @@ alt="gitLogo"/></Row>
 </Row>
 <Row><p>Tech Used: Node.JS, MySQL, MongoDB, Sequelize</p><br/><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"40%",maxHeight:200, }} 
-alt="gitLogo"/></Row>
+alt="gitLogo"/></Row> */}
 {/* </Grid> */}
 <Row><Col style={{alignContent:"center", maxWidth:"70%"}}>
  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
