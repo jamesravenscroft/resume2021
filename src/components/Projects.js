@@ -65,7 +65,7 @@ alt="gitLogo"/></a></Row>
   {/* <p>Tech used: Chart.js MySQL</p> */}
 </Row>
 <Row><br/>
-<a href="https://ReasonToDrink.Fun"><h1 style={{marginLeft:"1%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>
+<a href="https://ReasonToDrink.Fun"><h1 style={{marginLeft:"1%", WebkitTextStrokeWidth:1, color: "white", WebkitTextStrokeColor:"black"}}>
   ReasonToDrink.Fun</h1></a><br/><br/>
   {/* <video width="320" height="240" controls autoplay>
   <source src="../img/cheers.mp4" type="video/mp4"/>
@@ -80,10 +80,10 @@ alt="gitLogo"/></a></Row>
 <h1 style={{marginLeft:"5%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black", whiteSpace:"normal"}}>Find a holiday and a place to celebrate</h1>
   <br>
   </br>
-  <Row>
+  <Row style={{alignSelf:"center"}}>
   {/* https://github.com/jamesravenscroft/reasonToDrink.Fun */}
   <p>Tech Used: Ajax, Javascript</p><br/><a href=" https://github.com/jamesravenscroft/reasonToDrink.Fun"><img src={require("../img/gitLogo.png")} 
-style={{width:"10%", maxHeight:200, marginLeft:"30%"}} 
+style={{width:"10%", maxHeight:200, marginLeft:"3%"}} 
 alt="gitLogo"/></a></Row>
   <Row>
   {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}
@@ -99,20 +99,21 @@ style={{width:"10%", marginLeft:"40%",maxHeight:200, }}
 alt="gitLogo"/></Row> */}
 {/* </Grid> */}
 <Row><Col style={{alignContent:"center", maxWidth:"70%"}}>
- <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>
+ <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1,alignContent:"center"}}>
    
    Coming Soon: 
 
    <br></br>
    <a href="https://ravenscroftgames.firebaseapp.com/">
-     <p style={{color:"white",WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1 }}>Animalchemists</p></a></h1><Row>
+     <p style={{color:"white",WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, alignContent:"center" }}>Animalchemists</p></a></h1><Row>
    <img src={require("../img/pic4767592.png")} alt="animalc1" style={{width:"25%", maxWidth:"40%", float:"left", marginLeft:"10%"}}/>
 
 <br></br>
    <img src={require("../img/pic4905412.jpg")} alt="animalc2"  style={{width:"25%", maxWidth:"40%"}}/>
-   </Row><a href="https://github.com/jamesravenscroft/pure-react-animalchemists"><img src={require("../img/gitLogo.png")}
-style={{width:"10%", marginLeft:"40%",maxHeight:200}} 
-alt="gitLogo"/></a><br/>
+   </Row>
+   <Row><a href="https://github.com/jamesravenscroft/pure-react-animalchemists"><img src={require("../img/gitLogo.png")}
+style={{width:"10%", marginLeft:"40%", maxHeight:200}} 
+alt="gitLogo"/></a><br/></Row>
 </Col>
 <Row>
   {/* <p style={{float:"left"}}>Tech used: React DND, Firebase</p> */}
