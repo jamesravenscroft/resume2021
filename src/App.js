@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Slider from './slider';
-import {Animated} from "react-animated-css";
+
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";

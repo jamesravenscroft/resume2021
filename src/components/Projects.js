@@ -2,12 +2,8 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Nav from 'react-bootstrap/Nav';
-import Slider from '../slider';
-// import {Animated} from "react-animated-css";
+
 import '../App.css';
-// import App from "../src/App"
-// import Journal from "./Journal";
 
 function Projects (){
     return(
@@ -59,9 +55,9 @@ alt="gitLogo"/></a>
     <Row>
   <h2 style={{marginLeft:"0%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black" , whiteSpace:"normal"}}>See The latest housing trends in San Diego</h2><br></br>
  <Row><p style={{marginLeft:"30%"}}>Tech Used: Ajax, Chart.js</p>
-  </Row><br/><br/><img src={require("../img/gitLogo.png")} 
+  </Row><br/><br/><a href= "https://github.com/gregoryschmidt/market_snapshot"><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"1%"}} 
-alt="gitLogo"/></Row>
+alt="gitLogo"/></a></Row>
   <br>
   </br>
   {/* https://github.com/gregoryschmidt/market_snapshot */}
@@ -86,9 +82,9 @@ alt="gitLogo"/></Row>
   </br>
   <Row>
   {/* https://github.com/jamesravenscroft/reasonToDrink.Fun */}
-  <p>Tech Used: Ajax, Javascript</p><br/><img src={require("../img/gitLogo.png")} 
+  <p>Tech Used: Ajax, Javascript</p><br/><a href=" https://github.com/jamesravenscroft/reasonToDrink.Fun"><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", maxHeight:200, marginLeft:"30%"}} 
-alt="gitLogo"/></Row>
+alt="gitLogo"/></a></Row>
   <Row>
   {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}
 </Row></Row>
@@ -114,9 +110,9 @@ alt="gitLogo"/></Row> */}
 
 <br></br>
    <img src={require("../img/pic4905412.jpg")} alt="animalc2"  style={{width:"25%", maxWidth:"40%"}}/>
-   </Row><img src={require("../img/gitLogo.png")}
+   </Row><a href="https://github.com/jamesravenscroft/pure-react-animalchemists"><img src={require("../img/gitLogo.png")}
 style={{width:"10%", marginLeft:"40%",maxHeight:200}} 
-alt="gitLogo"/><br/>
+alt="gitLogo"/></a><br/>
 </Col>
 <Row>
   {/* <p style={{float:"left"}}>Tech used: React DND, Firebase</p> */}
