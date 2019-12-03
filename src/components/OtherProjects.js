@@ -9,6 +9,39 @@ return(
 <div>
 <Container style={{backgroundColor:"white"}}>
     <Row style={{MaxWidth:"100%"}}><h1 style={{marginLeft:"3%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
+    <Row>
+
+{/* 1 */}
+<Col sm
+    style={{float:"left", width:"30%"}}
+    >
+
+ <a target="_blank" href="https://github.com/jamesravenscroft/newLiriFixy">
+ <img src={require("../img/liri.jpg")} alt="liri" 
+    style={{width:"100%", maxWidth:150}}/>
+<br/>
+<h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>Langauge Interpretation and Recognition Interface</h4><br/><p style={{color:"black", whiteSpace:"normal"}}>Liri: A personal assistant<br></br><p style={{color:"black", whiteSpace:"normal"}}>Search for Upcoming Concerts, Read Movie Reviews and Play Spotify Songs, all from the comfort of your command line.</p>
+</p></a></Col>
+
+<Col sm style={{float:"center", width:"30%"}}><a target="_blank" href="https://github.com/jamesravenscroft/wordGuessDune">
+   <img src={require("../img/video.jpg")} alt="Node-Dune" style={{width:"70%"}}/> </a> 
+   <h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>Node Word Guess Game</h4><br/><p style={{color:"black", whiteSpace:"normal"}}>Word Guessing game using Node. Based on Terms from "Dune", so it is somewhat difficult.</p></Col>
+<Col sm
+style={{float:"right", width:"30%"}}
+>
+<img src={require("../img/enterNodeCmd5.jpg")} alt="bamazon"
+    style={{width:"70%"}}
+    />
+<h4 class="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}><a href="https://github.com/jamesravenscroft/SuperMarket">SuperMarket</a></h4>
+<p style={{color:"black", whiteSpace:"normal"}}>
+Bamazon
+</p><br></br><p  style={{color:"black", whiteSpace:"normal"}}>Buy things from the Command Line using Node and MySQL!</p>
+
+</Col>
+{/* 2 */}
+
+</Row>
+
 <Row>
 
 {/* 1 */}
