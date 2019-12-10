@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
-import Slider from './slider';
+// import Slider from './slider';
 
 import Header from "./components/Header";
 import Contact from "./components/Contact";
@@ -11,7 +11,7 @@ import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 import Eductation from "./components/Education";
 import OtherProjects from "./components/OtherProjects";
-import BackgroundImage from "./components/BackgroundImage";
+// import BackgroundImage from "./components/BackgroundImage";
 
 import './App.css';
 
@@ -63,7 +63,8 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
  <br></br>
  <Eductation/>
 <br></br>
-<Skill/>
+<Skill
+  style={{marginLeft:"15%"}}/>
 <Projects/>
 <OtherProjects/>
 

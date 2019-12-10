@@ -1,8 +1,8 @@
 import React from 'react';
-import Container from 'react-bootstrap/Button';
+// import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Nav from 'react-bootstrap/Nav';
+// import Nav from 'react-bootstrap/Nav';
 
 function Education(){
     return(
@@ -12,11 +12,11 @@ function Education(){
     </Row>
     <Row>
         <Col style ={{width:"40%", maxWidth:"50%",marginLeft:"5%", float:"left"}}><img src={require("../img/MCClogo.jpg")} 
-        style={{width:"80%", marginTop:"8%"}}/>
+        style={{width:"80%", marginTop:"8%"}} alt="MCC"/>
         <br></br><p style={{color:"black"}}>Communications Major 2008-2010</p>
         </Col>
         
-        <Col style={{width:"50%", float:"right"}}> <img src={require("../img/ucsd1.png")}
+        <Col style={{width:"50%", float:"right"}}> <img src={require("../img/ucsd1.png")} alt="UCSD"
         style={{marginTop:"0%", maxWidth:"45%"}}/>
         <br/><p style={{color:"black", whiteSpace:"normal"}}>Full Stack Web Developer Certifaction 2019</p>
         </Col>

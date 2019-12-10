@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Nav from 'react-bootstrap/Nav';
+// import Nav from 'react-bootstrap/Nav';
 import '../App.css';
 function OtherProjects(){
 return(

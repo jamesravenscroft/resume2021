@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
-import Container from 'react-bootstrap/Button';
+import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Nav from 'react-bootstrap/Nav';
-import {Animated} from "react-animated-css";
 
 function Contact(){
     return(
