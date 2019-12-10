@@ -46,8 +46,7 @@ Bamazon
 
 {/* 1 */}
 <Col sm
-    style={{float:"left", width:"30%"}}
-    >
+    style={{float:"left", width:"30%"}}>
 
  <a target="_blank" href="https://jamesravenscroft.github.io/Responsive-Portfolio/assets/Shape_Hunter/index.html">
  <img src={require("../img/shapeHunterKid.png")} alt="Shape Hunter" 
