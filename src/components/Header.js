@@ -43,7 +43,10 @@ function Header (){
             When I'm not coding I enjoy writing for independent films, bike riding and spending time with my family.
             </p>     </Col>
             {/* </Col> */}
- 
+ <Row><p style={{whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-5%"}}>
+EXCUSE THE ALIGNMENT ISSUES || CURRENTLY OPTIMIZING LOAD TIME
+</p>
+ </Row>
          
   </Row>
 

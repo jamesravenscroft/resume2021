@@ -57,11 +57,6 @@
   color: #222
 }
 
-
-
-
-
-
 .App {
   text-align: center;
 }
@@ -111,6 +106,17 @@ background-color: darkblue;
   /* background-clip: inherit; */
   background-blend-mode: soft-light
   }
+
+  .bg2 {
+    background-image: url("./img/sd2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  /* background-color: darkblue; */
+    /* background-clip: inherit; */
+    /* background-blend-mode: soft-light */
+    }
 
   * {
     box-sizing: border-box;

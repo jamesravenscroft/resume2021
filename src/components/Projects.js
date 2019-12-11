@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
@@ -8,7 +8,7 @@ import '../App.css';
 function Projects (){
     return(
     <div>
-      <Container style={{width:"95%", whiteSpace:"normal", alignContent:"Center"}}>
+      <Container className="bg2" style={{width:"95%", whiteSpace:"normal", alignContent:"center"}}>
         {/* <Grid> */}
 <Row>
   <h1 style={{marginLeft:"1%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
@@ -26,26 +26,24 @@ Web Based Desktop RPG.
 
 <a href="https://swordmasters-august.firebaseapp.com">
 
-    <div>
-<img src={require("../../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%"/></div>
+  
+<img src={require("../../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%" style={{marginLeft:"15%"}}/>
 </a>
 <br></br>
 {/* <h2 style={{float: "left", marginLeft:"25%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Made with React</h2>
 
 <img src={require("./../img/React.js_logo-512.png")} alt="reactLogo" style={{height:50, marginRight:"20%"}}/> */}
 <br></br>
-<iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
-style={{marginLeft:"-5%", maxWidth:"100%"}} title="ginazVid"  aria-hidden="true"
+<iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen
+style={{marginLeft:"20%", maxWidth:"100%"}} title="ginazVid"  aria-hidden="true"
 ></iframe><br></br>
-<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
+<Row><p className="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"1%"}} 
 alt="gitLogo"/></a>
 </Row>
 </Row>
 
-
-<br/>
 <Row>
   <h1 style={{marginLeft:"10%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black"}}>
   Market SnapShot</h1><a href="https://market-snapshot.herokuapp.com/">

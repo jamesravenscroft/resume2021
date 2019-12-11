@@ -41,7 +41,7 @@ Web Based Desktop RPG.
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 style={{marginLeft:"-5%", maxWidth:"100%"}}
 ></iframe><br></br>
-<Row><p class="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
+<Row><p className="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", marginLeft:"1%"}} 
 alt="gitLogo"/></a>

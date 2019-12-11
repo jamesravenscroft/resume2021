@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
@@ -53,8 +53,8 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
 </div>
   </Nav>
 </Row>
- 
- <Header/>
+</Container>
+ <Container style={{alignContent:"center"}}><Header/>
   
   <br></br>
  <Contact
@@ -65,9 +65,11 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
 <br></br>
 <Skill
   style={{marginLeft:"15%"}}/>
-<Projects/>
+  <Row>
+<Projects/></Row><br></br>
+<Row>
 <OtherProjects/>
-
+</Row>
 </Container>
 </div>
   )}
