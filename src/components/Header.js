@@ -33,7 +33,7 @@ function Header (){
           Full Stack Web Developer
           </h1>    
       
-        <p className="text-justify" style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-10%"}} 
+        <p className="text-justify" style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-8%"}} 
               >
         I am currently working as Coding Instructor at The Coder School of La Jolla, California. 
         </p>
