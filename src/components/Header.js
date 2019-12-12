@@ -2,8 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-// import Nav from 'react-bootstrap/Nav';
-// import {Animated} from "react-animated-css";
+
 import "../App.css"
 function Header (){
 
@@ -14,17 +13,14 @@ function Header (){
 
       <Row>
           <Col md={4}>
-            {/* <Animated animationIn="bounceInLeft" animationInDelay="550" animationOut="fadeOut" isVisible={true}> */}
+       
           <div>
           <img src={require("../img/suit.jpg")} alt="suit"
           style={{width:"30%", float:"left", borderRadius:35, maxWidth:"40%"}}/>
           </div>
-          {/* </Animated> */}
+     
           </Col>
-
-          
-         
-         
+     
           <Col  lg={{ span: 6,  whiteSpace: 'normal', float:"right"}}>
    
           <h1 style={{WebkitTextStrokeColor:"black", maxWidth:"55%", float:"right",  marginTop:"-30%", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>

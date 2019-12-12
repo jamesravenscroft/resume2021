@@ -2,12 +2,11 @@ import React from 'react';
 import {Container} from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-// import Nav from 'react-bootstrap/Nav';
 import '../App.css';
 function OtherProjects(){
 return(
 
-<Container style={{backgroundColor:"white", marginTop:"10%"}}>
+<Container style={{backgroundColor:"white", marginTop:"10%"}} async>
     <Row style={{MaxWidth:"100%"}}>
     <h1 style={{marginLeft:"3%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
       <Row>
@@ -15,7 +14,7 @@ return(
 {/* 1 */}
 <Col sm  style={{float:"left", width:"30%"}}  >
 
- <a target="_blank" href="https://github.com/jamesravenscroft/newLiriFixy">
+ <a target="_blank" rel="noopener noreferrer" href="https://github.com/jamesravenscroft/newLiriFixy">
  <img src={require("../img/liri.jpg")} alt="liri" 
     style={{width:"100%", maxWidth:150}}/>
 <br/>
@@ -23,7 +22,7 @@ return(
 <p style={{color:"black", whiteSpace:"normal"}}>Liri: A personal assistant<br></br>Search for Upcoming Concerts, Read Movie Reviews and Play Spotify Songs, all from the comfort of your command line.</p>
 </Col>
 
-<Col sm style={{float:"center", width:"30%"}}><a target="_blank" href="https://github.com/jamesravenscroft/wordGuessDune">
+<Col sm style={{float:"center", width:"30%"}}><a target="_blank" rel="noopener noreferrer" href="https://github.com/jamesravenscroft/wordGuessDune">
    <img src={require("../img/video.jpg")} alt="Node-Dune" style={{width:"70%"}}/> </a> 
    <h4 className="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>Node Word Guess Game</h4><br/><p style={{color:"black", whiteSpace:"normal"}}>Word Guessing game using Node. Based on Terms from "Dune", so it is somewhat difficult.</p></Col>
 <Col sm
@@ -55,13 +54,13 @@ Bamazon
 A simple matching game using CSS Shapes, HTML5 and Javascript.</p>
 </a></Col>
 
-<Col sm style={{float:"center", width:"30%"}}><a target="_blank" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
+<Col sm style={{float:"center", width:"30%"}}><a target="_blank" rel="noopener noreferrer" href="https://jamesravenscroft.github.io/Word-Guess-Game/">
    <img src={require("../img/zeldaWordGuessGameThumb.PNG")} alt="Zelda" style={{width:"70%"}}/> </a> 
    <h4 className="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}>  Legend of Zelda Word Guess</h4><br/><p style={{color:"black", whiteSpace:"normal"}}>Word Guessing game using Javascript.</p></Col>
 <Col sm style={{float:"right", width:"30%"}}
 >
 <img src="https://ak2.picdn.net/shutterstock/videos/16196992/thumb/11.jpg" alt="bestFriends"
-    style={{width:"70%"}}
+    style={{width:"70%"}} async
     />
 <h4 className="pt-100 pb-30" style={{color:"black", whiteSpace:"normal"}}><a href="https://friend-finder2341.herokuapp.com/">Friend Finder</a></h4>
 <p style={{color:"black", whiteSpace:"normal"}}>

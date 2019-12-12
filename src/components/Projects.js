@@ -8,18 +8,18 @@ import '../App.css';
 function Projects (){
     return(
     <div>
-      <Container className="bg2" style={{width:"95%", whiteSpace:"normal", alignContent:"center"}}>
-        {/* <Grid> */}
+      <Container className="bg2" style={{width:"95%", whiteSpace:"normal", alignContent:"center"}} async>
+      
 <Row>
-  <h1 style={{marginLeft:"1%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
+  <h1 style={{marginLeft:"1%",color:"white", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
   </Row><Row>
 
-  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"1%%",whiteSpace:"normal"}}>
+  <h1 style={{WebkitTextStrokeColor:"black",color:"white", WebkitTextStrokeWidth:1, marginLeft:"1%%",whiteSpace:"normal"}}>
 SwordMasters of Ginaz</h1></Row><Row>
 <br></br>
 
 <Row>
-<h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, marginLeft:"1%", whiteSpace:"normal"}}>
+<h1 style={{WebkitTextStrokeColor:"black",color:"white", WebkitTextStrokeWidth:1, marginLeft:"1%", whiteSpace:"normal"}}>
 Web Based Desktop RPG. 
 </h1></Row>
 <br></br>
@@ -30,12 +30,9 @@ Web Based Desktop RPG.
 <img src={require("../../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%" style={{marginLeft:"15%"}}/>
 </a>
 <br></br>
-{/* <h2 style={{float: "left", marginLeft:"25%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>Made with React</h2>
-
-<img src={require("./../img/React.js_logo-512.png")} alt="reactLogo" style={{height:50, marginRight:"20%"}}/> */}
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen
-style={{marginLeft:"20%", maxWidth:"100%"}} title="ginazVid"  aria-hidden="true"
+style={{marginLeft:"20%", maxWidth:"100%"}} title="ginazVid"  aria-hidden="true" async="true"
 ></iframe><br></br>
 <Row><p className="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
@@ -58,9 +55,6 @@ style={{width:"10%", marginLeft:"1%"}}
 alt="gitLogo"/></a></Row>
   <br>
   </br>
-  {/* https://github.com/gregoryschmidt/market_snapshot */}
-
-  {/* <p>Tech used: Chart.js MySQL</p> */}
 </Row>
 <Row><br/>
 <a href="https://ReasonToDrink.Fun"><h1 style={{marginLeft:"1%", WebkitTextStrokeWidth:1, color: "white", WebkitTextStrokeColor:"black"}}>
@@ -79,23 +73,14 @@ alt="gitLogo"/></a></Row>
   <br>
   </br>
   <Row style={{alignSelf:"center"}}>
-  {/* https://github.com/jamesravenscroft/reasonToDrink.Fun */}
+
   <p>Tech Used: Ajax, Javascript</p><br/><a href=" https://github.com/jamesravenscroft/reasonToDrink.Fun"><img src={require("../img/gitLogo.png")} 
 style={{width:"10%", maxHeight:200, marginLeft:"3%"}} 
 alt="gitLogo"/></a></Row>
   <Row>
-  {/* <p>Tech used: Ajax, Javascript, BootStrap</p> */}
+
 </Row></Row>
-{/* <Row 
-      // style={{width:"80%"}}
-  >
-    <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1, whiteSpace:"normal"}}>Very Exciting Back End Slideshow</h1>
-<Slider/>
-</Row>
-<Row><p>Tech Used: Node.JS, MySQL, MongoDB, Sequelize</p><br/><img src={require("../img/gitLogo.png")} 
-style={{width:"10%", marginLeft:"40%",maxHeight:200, }} 
-alt="gitLogo"/></Row> */}
-{/* </Grid> */}
+
 <Row><Col style={{alignContent:"center", maxWidth:"70%"}}>
  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1,alignContent:"center"}}>
    
