@@ -1,11 +1,10 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
+import Container from 'react-bootstrap/Container';
 function Contact(){
     return(
-        <div style={{marginTop:"10%"}}>
- 
+       <Container>
   <Row>    
     <Col><h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>Contact:</h1><br></br>
     <p style={{color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
@@ -21,7 +20,8 @@ function Contact(){
     
     </Col>
 </Row>
-            </div>
+           </Container>
+ 
     )
 
 }

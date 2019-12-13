@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
-
+import Col from 'react-bootstrap/Col';
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -46,7 +46,7 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
   </Nav.Item>
   <div style={{float:"center" }}>
 <a href="https://www.linkedin.com/in/james-ravenscroft-iii/"><img src={require("./img/linkedin.png")}  style={{width:26, height:25, stroke:"black", backgroundColor:"white"}}  alt="linkedIn"/></a>
-<a  href="https://github.com/jamesravenscroft"><img src={require("./img/gitLogo.png")}  style={{borderRadius:30, width:30, height:25, stroke:"black", backgroundColor:"white", marginLeft:60}} alt="linkedIn"/></a>
+<a  href="https://github.com/jamesravenscroft"><img src={require("./img/gitLogo.png")}  style={{borderRadius:30, width:38, height:25, stroke:"black", backgroundColor:"white", marginLeft:60}} alt="gitLogo"/></a>
 </div>
   </Nav>
 </Row>
@@ -54,11 +54,13 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
  <Container style={{alignContent:"center"}}><Header/>
   
   <br></br>
+  <Col md={{ span: 6, offset: 3 }}>
  <Contact
   style={{marginTop:"10%"}}
-  />
+  /></Col>
  <br></br>
- <Eductation/>
+  <Col md={{ span: 6, offset: 3 }}>
+ <Eductation/></Col>
 <br></br>
 <Skill
   style={{marginLeft:"15%"}}/>

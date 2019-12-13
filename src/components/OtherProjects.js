@@ -12,7 +12,7 @@ return(
       <Row>
 
 {/* 1 */}
-<Col sm  style={{float:"left", width:"30%"}}  >
+<Col sm  style={{float:"left", width:"30%"}} >
 
  <a target="_blank" rel="noopener noreferrer" href="https://github.com/jamesravenscroft/newLiriFixy">
  <img src={require("../img/liri.jpg")} alt="liri" 
@@ -83,9 +83,7 @@ Friend Finder will help find your best friend based on our survey.
           <p className=" pb-100" style={{color:"black", whiteSpace:"normal"}}> Become the Pinnacle of Human evolution.<br/>A fighting game using jQuery.		
          </p>						
      </a></Col>
-     <Col sm
-style={{float:"right", width:"30%"}}
->   
+     <Col xs={6} md={4}>
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
      <img className="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"55%"}} alt="dune"/>
@@ -97,9 +95,7 @@ style={{float:"right", width:"30%"}}
 </a>
 
 </Col>
-<Col sm
-style={{float:"right", width:"30%"}}
->
+<Col xs={6} md={4}>
 <img src={require("../img/gifTime.PNG")} alt="gifTime"style={{width:"60%"}}/>
 <a href="https://jamesravenscroft.github.io/gifTime/">
 <h4 className="pt-100 pb-30" style={{whiteSpace:"normal"}}>Bestest Directors Gifs</h4></a>
@@ -112,7 +108,7 @@ See gifs from great directors, or add your own.
 
 </Row>
 <Row>
-    <Col sm>
+<Col xs={6} md={4}>
 <a href="https://jamesravenscroft.github.io/trainScheduler/">
 <img className="img-fluid" src={require("../img/fvCover.jpg")} style={{width:"25%"}} alt="voyage"/>
 <h4 className="pt-100 pb-30" style={{whiteSpace:"normal"}}>
@@ -126,9 +122,6 @@ Fantastic Voyage</h4><br></br>
 
 
 </Container>
-
-
-
 )
 
 };

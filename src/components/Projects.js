@@ -8,11 +8,12 @@ import '../App.css';
 function Projects (){
     return(
     <div>
-      <Container className="bg2" style={{width:"95%", whiteSpace:"normal", alignContent:"center"}} async>
+      <Container className="bg2" style={{width:"100%", whiteSpace:"normal", alignContent:"center"}} async>
       
 <Row>
+<Col md={{ span: 6, offset: 3 }}>
   <h1 style={{marginLeft:"1%",color:"white", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
-  </Row><Row>
+ </Col> </Row><Row>
 
   <h1 style={{WebkitTextStrokeColor:"black",color:"white", WebkitTextStrokeWidth:1, marginLeft:"1%%",whiteSpace:"normal"}}>
 SwordMasters of Ginaz</h1></Row><Row>
@@ -32,7 +33,7 @@ Web Based Desktop RPG.
 <br></br>
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen
-style={{marginLeft:"20%", maxWidth:"100%"}} title="ginazVid"  aria-hidden="true" async="true"
+style={{marginLeft:"10%", maxWidth:"100%"}} title="ginazVid"  aria-hidden="true" async="true"
 ></iframe><br></br>
 <Row><p className="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
