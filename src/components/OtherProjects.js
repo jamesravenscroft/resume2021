@@ -3,10 +3,15 @@ import {Container} from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import '../App.css';
+// import Projects from "./Projects";
 function OtherProjects(){
 return(
 
 <Container style={{backgroundColor:"white", marginTop:"10%"}} async>
+<Row style={{MaxWidth:"100%"}}>
+{/* <Projects></Projects> */}
+</Row>
+
     <Row style={{MaxWidth:"100%"}}>
     <h1 style={{marginLeft:"3%", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>OTHER PROJECTS:</h1><br></br></Row>
       <Row>
@@ -83,7 +88,9 @@ Friend Finder will help find your best friend based on our survey.
           <p className=" pb-100" style={{color:"black", whiteSpace:"normal"}}> Become the Pinnacle of Human evolution.<br/>A fighting game using jQuery.		
          </p>						
      </a></Col>
-     <Col xs={6} md={4}>
+     <Col sm
+style={{float:"right", width:"30%"}}
+>   
 <a href="https://jamesravenscroft.github.io/TriviaGame/">
   		
      <img className="img-fluid" src={require("../img/GomJabbar.PNG")} style={{width:"55%"}} alt="dune"/>
@@ -95,7 +102,8 @@ Friend Finder will help find your best friend based on our survey.
 </a>
 
 </Col>
-<Col xs={6} md={4}>
+<Col style={{float:"right", width:"30%"}}
+>   
 <img src={require("../img/gifTime.PNG")} alt="gifTime"style={{width:"60%"}}/>
 <a href="https://jamesravenscroft.github.io/gifTime/">
 <h4 className="pt-100 pb-30" style={{whiteSpace:"normal"}}>Bestest Directors Gifs</h4></a>

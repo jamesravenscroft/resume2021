@@ -6,7 +6,8 @@ function Contact(){
     return(
        <Container>
   <Row>    
-    <Col><h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>Contact:</h1><br></br>
+  <Col md={{ span: 6, offset: 3 }}>
+      <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>Contact:</h1><br></br>
     <p style={{color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5}}>
         email: hello@jamesravenscroft3.com</p>
     <br></br>

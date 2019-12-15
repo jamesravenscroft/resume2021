@@ -9,15 +9,29 @@ import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 import Eductation from "./components/Education";
 import OtherProjects from "./components/OtherProjects";
+import Modal from "./components/Modal/Modal";
+import Button from "react-bootstrap/Button";
+// import ModalCompoenent from "./components/ModalComponenent";
+// import Modal from "react-bootstrap-modal";
+// import Modal from "react-bootstrap/Modal"
+// import Button from "react-bootstrap/Button";
+// import {render,useState} from "react";
 
 import './App.css';
 
-
-
 function App() {
+  
+// constructor() {
+//   super();
+//   this.state = {
+// isShowing:"false"
+//   }}
+
+
+
   return (
 
-    <div style={{maxWidth:"100%", minWidth:"100%", whiteSpace: 'normal', 
+    <Container style={{maxWidth:"100%", minWidth:"100%", whiteSpace: 'normal', 
     background: 'linear-gradient(to right bottom, 	#0080ff, #00ffff)'}} async>
 
   <Container style={{width:"100%", minWidth:375}}>
@@ -47,30 +61,49 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
   <div style={{float:"center" }}>
 <a href="https://www.linkedin.com/in/james-ravenscroft-iii/"><img src={require("./img/linkedin.png")}  style={{width:26, height:25, stroke:"black", backgroundColor:"white"}}  alt="linkedIn"/></a>
 <a  href="https://github.com/jamesravenscroft"><img src={require("./img/gitLogo.png")}  style={{borderRadius:30, width:38, height:25, stroke:"black", backgroundColor:"white", marginLeft:60}} alt="gitLogo"/></a>
+
 </div>
   </Nav>
 </Row>
 </Container>
- <Container style={{alignContent:"center"}}><Header/>
-  
-  <br></br>
-  <Col md={{ span: 6, offset: 3 }}>
+ <Container style={{alignContent:"center"}}>
+   <Row>
+   {/* <Button variant="primary" onClick={this.state.isShowing="true"}>
+        Launch demo modal
+      </Button> */}
+   <Header/>
+   </Row>
+ 
+ <br></br>
+ {/* <Modal
+          className="modal"
+          show={this.state.isShowing}
+          close={this.closeModalHandler}
+          link={this.state.link}
+        >  </Modal>  */}
+<Row style={{alignContent:"center"}}>
+  <Col style={{width:"40%", marginLeft:"25%"}}>
+
  <Contact
-  style={{marginTop:"10%"}}
-  /></Col>
+  style={{marginTop:"10%"}}/>
+      </Col>
+      </Row>
  <br></br>
   <Col md={{ span: 6, offset: 3 }}>
  <Eductation/></Col>
 <br></br>
+<Col style={{width:"40%", marginLeft:"25%"}}>
 <Skill
   style={{marginLeft:"15%"}}/>
-  <Row>
-<Projects/></Row><br></br>
+ </Col> <Row>
+ <Col style={{width:"90%", marginLeft:"15%"}}>
+
+<Projects/></Col></Row><br></br>
 <Row>
 <OtherProjects/>
 </Row>
 </Container>
-</div>
+</Container>
   )}
 
 export default App;

@@ -7,8 +7,8 @@ import '../App.css';
 
 function Projects (){
     return(
-    <div>
-      <Container className="bg2" style={{width:"100%", whiteSpace:"normal", alignContent:"center"}} async>
+   
+      <Container style={{width:"100%", whiteSpace:"normal", alignContent:"center"}} async>
       
 <Row>
 <Col md={{ span: 6, offset: 3 }}>
@@ -28,12 +28,12 @@ Web Based Desktop RPG.
 <a href="https://swordmasters-august.firebaseapp.com">
 
   
-<img src={require("../../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%" style={{marginLeft:"15%"}}/>
+<img src={require("../../src/img/swordmasterslogo.PNG")} alt="swordmastersLogo" width="70%"/>
 </a>
 <br></br>
 <br></br>
 <iframe src="https://player.vimeo.com/video/346965384" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen
-style={{marginLeft:"10%", maxWidth:"100%"}} title="ginazVid"  aria-hidden="true" async="true"
+style={{maxWidth:"100%"}} title="ginazVid"  aria-hidden="true" async="true"
 ></iframe><br></br>
 <Row><p className="col-md-6 col-md-offset-3" style={{marginLeft:"1%"}}>Tech Used: React, CSS, Firebase</p><br/>
 <a href="https://github.com/jamesravenscroft/swordmastersofginazAugust"><img src={require("../img/gitLogo.png")} 
@@ -105,7 +105,7 @@ alt="gitLogo"/></a><br/></Row>
 </Row>
 {/* <Journal/> */}
 </Container>
-    </div>
+
     )};
     export default Projects
 
