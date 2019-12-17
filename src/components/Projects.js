@@ -10,10 +10,10 @@ function Projects (){
    
       <Container style={{width:"100%", whiteSpace:"normal", alignContent:"center"}} async>
       
-<Row>
+<Row><Col md={{ span: 6}}></Col>
 <Col md={{ span: 6, offset: 3 }}>
   <h1 style={{marginLeft:"1%",color:"white", WebkitAlignContent:"center", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1}}>PROJECTS:</h1><br></br>
- </Col> </Row><Row>
+ </Col> <Col md={{ span: 6}}></Col></Row><Row>
 
   <h1 style={{WebkitTextStrokeColor:"black",color:"white", WebkitTextStrokeWidth:1, marginLeft:"1%%",whiteSpace:"normal"}}>
 SwordMasters of Ginaz</h1></Row><Row>
@@ -58,7 +58,7 @@ alt="gitLogo"/></a></Row>
   </br>
 </Row>
 <Row><br/>
-<a href="https://ReasonToDrink.Fun"><h1 style={{marginLeft:"1%", WebkitTextStrokeWidth:1, color: "white", WebkitTextStrokeColor:"black"}}>
+<Col md={{ span: 6}}></Col><a href="https://ReasonToDrink.Fun"><h1 style={{marginLeft:"1%", WebkitTextStrokeWidth:1, color: "white", WebkitTextStrokeColor:"black"}}>
   ReasonToDrink.Fun</h1></a><br/><br/>
   {/* <video width="320" height="240" controls autoplay>
   <source src="../img/cheers.mp4" type="video/mp4"/>
@@ -67,8 +67,7 @@ alt="gitLogo"/></a></Row>
   </video> */}
 
   <img src={require("../../src/img/beerMugs.jpg")} alt="reasonToDrinkLogo" width="40%" 
-  style={{  borderRadius: 85, width:"30%"}}
-   />
+  style={{  borderRadius: 85, width:"30%"}} />
 
 <h1 style={{marginLeft:"5%", WebkitTextStrokeWidth:1, WebkitTextStrokeColor:"black", whiteSpace:"normal"}}>Find a holiday and a place to celebrate</h1>
   <br>
@@ -82,7 +81,9 @@ alt="gitLogo"/></a></Row>
 
 </Row></Row>
 
-<Row><Col style={{alignContent:"center", maxWidth:"70%"}}>
+<Row>
+<Col md={{ span: 6}}></Col>
+  <Col style={{alignContent:"center", maxWidth:"70%"}}>
  <h1 style={{WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:1,alignContent:"center"}}>
    
    Coming Soon: 
@@ -95,10 +96,13 @@ alt="gitLogo"/></a></Row>
 <br></br>
    <img src={require("../img/pic4905412.jpg")} alt="animalc2"  style={{width:"25%", maxWidth:"40%"}}/>
    </Row>
-   <Row><a href="https://github.com/jamesravenscroft/pure-react-animalchemists"><img src={require("../img/gitLogo.png")}
-style={{width:"10%", marginLeft:"40%", maxHeight:200}} 
-alt="gitLogo"/></a><br/></Row>
+   <Row><Col md={{ span: 6}}></Col>
+     <a href="https://github.com/jamesravenscroft/pure-react-animalchemists"><img src={require("../img/gitLogo.png")}
+style={{width:"10%", marginLeft:"40%", maxHeight:200}} alt="gitLogo"/></a><br/>
+<Col md={{ span: 6}}></Col>
+</Row>
 </Col>
+<Col md={{ span: 6}}></Col>
 <Row>
   {/* <p style={{float:"left"}}>Tech used: React DND, Firebase</p> */}
 </Row>

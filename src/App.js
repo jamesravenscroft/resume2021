@@ -61,7 +61,6 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
   <div style={{float:"center" }}>
 <a href="https://www.linkedin.com/in/james-ravenscroft-iii/"><img src={require("./img/linkedin.png")}  style={{width:26, height:25, stroke:"black", backgroundColor:"white"}}  alt="linkedIn"/></a>
 <a  href="https://github.com/jamesravenscroft"><img src={require("./img/gitLogo.png")}  style={{borderRadius:30, width:38, height:25, stroke:"black", backgroundColor:"white", marginLeft:60}} alt="gitLogo"/></a>
-
 </div>
   </Nav>
 </Row>
@@ -75,6 +74,7 @@ style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
    </Row>
  
  <br></br>
+ 
  {/* <Modal
           className="modal"
           show={this.state.isShowing}

@@ -42,6 +42,7 @@ function Header (){
  <Row><p style={{whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-5%"}}>
 EXCUSE THE ALIGNMENT ISSUES || CURRENTLY OPTIMIZING LOAD TIME
 </p>
+<img src={require("../img/JR3movingLogo_PreRend.gif")} alt="nameSlideLogo"/>
  </Row>
          
   </Row>
