@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-01" title>
+                  <a href="#modal-01" title="true">
                     <img alt="" src="images/portfolio/swordmasterslogo.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -27,7 +27,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-02" title>
+                  <a href="#modal-02" title="true">
                     <img alt="" src="images/portfolio/banner2.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -41,7 +41,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-03" title>
+                  <a href="#modal-03" title="true">
                     <img alt="" src="images/portfolio/beerMugs.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -56,7 +56,7 @@ export default class Portfolio extends Component {
               <br/>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-04" title>
+                  <a href="#modal-04" title="true">
                     <img alt="mksnap" src="images/portfolio/mksnapshot.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -70,7 +70,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item" >
                 <div className="item-wrap">
-                  <a href="#modal-05" title>
+                  <a href="#modal-05" title="true">
                     <img alt="" src="images/portfolio/adAnimalchemists.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -84,7 +84,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-06" title>
+                  <a href="#modal-06" title="true">
                     <img alt="" src="images/portfolio/shapeHunterKid.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -98,7 +98,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-07" title>
+                  <a href="#modal-07" title="true">
                     <img alt="" src="images/portfolio/fvCover.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -112,7 +112,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-08" title>
+                  <a href="#modal-08" title="true">
                     <img alt="" src="images/portfolio/gifTime.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -245,7 +245,7 @@ export default class Portfolio extends Component {
             <div id="portfolio-wrapper2" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-09" title>
+                  <a href="#modal-09" title="true">
                     <img alt="" src="images/portfolio/enterNodeCmd5.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -259,7 +259,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-10" title>
+                  <a href="#modal-10" title="true">
                     <img alt="" src="images/portfolio/liri.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -273,7 +273,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-11" title>
+                  <a href="#modal-11" title="true">
                     <img alt="" src="images/portfolio/wordGuess.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -454,7 +454,7 @@ export default class Portfolio extends Component {
             <div id="portfolio-wrapper4" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-12" title>
+                  <a href="#modal-12" title="true">
                     <img alt="" src="images/portfolio/fiboCsharp.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -468,7 +468,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-02" title>
+                  <a href="#modal-02" title="true">
                     <img alt="" src="images/portfolio/console.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -482,7 +482,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-03" title>
+                  <a href="#modal-03" title="true">
                     <img alt="" src="images/portfolio/judah.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -496,7 +496,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-04" title>
+                  <a href="#modal-04" title="true">
                     <img alt="" src="images/portfolio/into-the-light.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -510,7 +510,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-13" title>
+                  <a href="#modal-13" title="true">
                     <img alt="" src="images/portfolio/dnsNameCheapSuccess.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -524,7 +524,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-06" title>
+                  <a href="#modal-06" title="true">
                     <img alt="" src="images/portfolio/girl.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -538,7 +538,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-07" title>
+                  <a href="#modal-07" title="true">
                     <img alt="" src="images/portfolio/origami.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -552,7 +552,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-08" title>
+                  <a href="#modal-08" title="true">
                     <img alt="" src="images/portfolio/retrocam.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">

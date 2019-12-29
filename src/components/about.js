@@ -12,7 +12,7 @@ export default class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p> I am currently working as Coding Instructor at The Coder School of La Jolla, California.
-                <p>Some examples of my work are listed below, which are a mix of Node.JS and React.</p>
+           <br/>Some examples of my work are listed below, which are a mix of Node.JS and React.
             </p>
             <p> When I'm not coding I enjoy writing for independent films, bike riding and spending time with my family.
            </p>
