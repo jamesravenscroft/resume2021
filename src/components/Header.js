@@ -1,52 +1,45 @@
-import React from 'react';
-import Container from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-
-import "../App.css"
-function Header (){
-
-    return(
-    <div>
-        <Container className="bg" style={{whiteSpace: 'normal'}}>
-
-
-      <Row>
-          <Col md={4}>
-       
-          <div>
-          <img src={require("../img/suit.jpg")} alt="suit"
-          style={{width:"30%", float:"left", borderRadius:35, maxWidth:"40%"}}/>
+import React, { Component } from 'react';
+export default class Header extends Component {
+  render() {
+    return (
+      <React.Fragment>
+      {/*generated code*/}
+      <header id="home">
+        <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+          <ul id="nav" className="nav">
+            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+            <li><a className="smoothscroll" href="#about">About</a></li>
+            <li><a className="smoothscroll" href="#resume">Resume</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+          </ul> {/* end #nav */}
+        </nav> {/* end #nav-wrap */}
+        <div className="row banner">
+          <div className="banner-text">
+            <h1 className="responsive-headline">James Ravenscroft III</h1>
+            <h3>I'm a Full Stack Web Developer, <span> graphic designer</span> and <span>problem solver</span> <span>based in San Diego. </span> Creating fast, clean and
+              responsive websites for businesses looking to capture their audience's attention. <a className="smoothscroll" href="#about">Scroll Down </a>
+               to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul className="social">
+              {/* <li><a href="#"><i className="fa fa-facebook" /></a></li>
+              <li><a href="#"><i className="fa fa-twitter" /></a></li>*/}
+              <li><a href="https://github.com/jamesravenscroft"><i className="fa fa-github" /></a></li> 
+              <li><a href="https://www.linkedin.com/in/james-ravenscroft-iii/"><i className="fa fa-linkedin" /></a></li>
+              {/* <li><a href="#"><i className="fa fa-instagram" /></a></li>
+              <li><a href="#"><i className="fa fa-dribbble" /></a></li>
+              <li><a href="#"><i className="fa fa-skype" /></a></li> */}
+            </ul>
           </div>
-     
-          </Col>
-     
-          <Col  lg={{ span: 6,  whiteSpace: 'normal', float:"right"}}>
-   
-          <h1 style={{WebkitTextStrokeColor:"black", maxWidth:"55%", float:"right",  marginTop:"-30%", WebkitTextStrokeWidth:1,  whiteSpace: 'normal'}}>
-              Hello there!<br></br> My name is James Ravenscroft III<br>
-          </br>
-          Full Stack Web Developer
-          </h1>    
-      
-        <p className="text-justify" style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-8%"}} 
-              >
-        I am currently working as Coding Instructor at The Coder School of La Jolla, California. 
+        </div>
+        <p className="scrolldown">
+          <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
         </p>
-        <p style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-5%"}}>
-            Some examples of my work are listed below, which are a mix of Node.JS and React.</p><br/>
-            <p style={{float:"right", whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-2%"}}>
-            When I'm not coding I enjoy writing for independent films, bike riding and spending time with my family.
-            </p>     </Col>
-            {/* </Col> */}
- <Row><p style={{whiteSpace: 'normal', color:"white", fontSize:"150%", WebkitTextStrokeColor:"black", WebkitTextStrokeWidth:.5, marginTop:"-5%"}}>
-EXCUSE THE ALIGNMENT ISSUES || CURRENTLY OPTIMIZING LOAD TIME
-</p>
-<img src={require("../img/JR3movingLogo_PreRend.gif")} alt="nameSlideLogo"/>
- </Row>
-         
-  </Row>
-
-</Container>
- </div>)};
-  export default Header
+      </header> {/* Header End */}
+      </React.Fragment>
+    );
+  }
+}

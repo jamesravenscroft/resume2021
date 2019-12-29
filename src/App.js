@@ -1,109 +1,23 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Nav from 'react-bootstrap/Nav';
-import Col from 'react-bootstrap/Col';
-import Header from "./components/Header";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
-import Skill from "./components/Skill";
-import Eductation from "./components/Education";
-import OtherProjects from "./components/OtherProjects";
-import Modal from "./components/Modal/Modal";
-import Button from "react-bootstrap/Button";
-// import ModalCompoenent from "./components/ModalComponenent";
-// import Modal from "react-bootstrap-modal";
-// import Modal from "react-bootstrap/Modal"
-// import Button from "react-bootstrap/Button";
-// import {render,useState} from "react";
-
-import './App.css';
-
+import React, { Component } from 'react';
+import Header from './components/header';
+import About from './components/about';
+import Resume from './components/resume';
+import Portfolio from './components/portfolio';
+import Testimonials from  './components/testimonials';
+// import ContactUs from './components/contactus';
+import Footer from './components/footer';
 function App() {
-  
-// constructor() {
-//   super();
-//   this.state = {
-// isShowing:"false"
-//   }}
-
-
-
   return (
-
-    <Container style={{maxWidth:"100%", minWidth:"100%", whiteSpace: 'normal', 
-    background: 'linear-gradient(to right bottom, 	#0080ff, #00ffff)'}} async>
-
-  <Container style={{width:"100%", minWidth:375}}>
-<Row className="topper">
-      <Nav 
-      // variant="pills"
-  activeKey="/home"
-  onSelect={selectedKey => alert(`selected ${selectedKey}`)} async
-style={{background: 'linear-gradient(to right bottom, 	#0080ff, 	#0066cc'}}
-    >
-  <Nav.Item>
-    <Nav.Link 
-    style={{color:"white", float:"left", marginLeft:"10%"}}
-    href="/home">Home</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link style={{color:"white", float:"left", marginLeft:"5%"}} href="mailto:hello@jamesravenscroft.com">Contact</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link style={{color:"white",float:"left", marginLeft:"5%"}} href="https://swordmasters-august.firebaseapp.com">Recent Projects</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link style={{color:"white",float:"left", marginLeft:"5%", paddingRight:100}} eventKey="disabled" disabled>
-      James Ravenscroft III
-    </Nav.Link>
-  </Nav.Item>
-  <div style={{float:"center" }}>
-<a href="https://www.linkedin.com/in/james-ravenscroft-iii/"><img src={require("./img/linkedin.png")}  style={{width:26, height:25, stroke:"black", backgroundColor:"white"}}  alt="linkedIn"/></a>
-<a  href="https://github.com/jamesravenscroft"><img src={require("./img/gitLogo.png")}  style={{borderRadius:30, width:38, height:25, stroke:"black", backgroundColor:"white", marginLeft:60}} alt="gitLogo"/></a>
-</div>
-  </Nav>
-</Row>
-</Container>
- <Container style={{alignContent:"center"}}>
-   <Row>
-   {/* <Button variant="primary" onClick={this.state.isShowing="true"}>
-        Launch demo modal
-      </Button> */}
-   <Header/>
-   </Row>
- 
- <br></br>
- 
- {/* <Modal
-          className="modal"
-          show={this.state.isShowing}
-          close={this.closeModalHandler}
-          link={this.state.link}
-        >  </Modal>  */}
-<Row style={{alignContent:"center"}}>
-  <Col style={{width:"40%", marginLeft:"25%"}}>
-
- <Contact
-  style={{marginTop:"10%"}}/>
-      </Col>
-      </Row>
- <br></br>
-  <Col md={{ span: 6, offset: 3 }}>
- <Eductation/></Col>
-<br></br>
-<Col style={{width:"40%", marginLeft:"25%"}}>
-<Skill
-  style={{marginLeft:"15%"}}/>
- </Col> <Row>
- <Col style={{width:"90%", marginLeft:"15%"}}>
-
-<Projects/></Col></Row><br></br>
-<Row>
-<OtherProjects/>
-</Row>
-</Container>
-</Container>
-  )}
+    <div className="App">
+        <Header />
+        <About />
+        <Resume />
+        <Portfolio />
+        <Testimonials />
+        {/* <ContactUs /> */}
+        <Footer />
+    </div>
+  );
+}
 
 export default App;
