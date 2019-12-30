@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Header from './components/header.js';
+import React  from 'react';
+import Header from './components/header';
 import About from './components/about.js';
 import Resume from './components/resume.js';
 import Portfolio from './components/portfolio.js';

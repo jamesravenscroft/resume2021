@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "../magnific-popup.css"
 export default class Portfolio extends Component {
   render() {
     return (
@@ -156,7 +157,7 @@ export default class Portfolio extends Component {
               <a href="http://www.agapegaycaresd.com">Visit</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-02 End */}7
+          </div>{/* modal-02 End */}
   {/* Reason to Drink */}
           <div id="modal-03" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/beerMugs.jpg" alt="beermugs" />
