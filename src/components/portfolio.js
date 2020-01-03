@@ -58,7 +58,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title="true">
-                    <img alt="mksnap" src="images/portfolio/mksnapshot.jpg" />
+                    <img alt="mksnap" src="images/portfolio/mksnapshot.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Market Snapshot</h5>
@@ -114,7 +114,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-08" title="true">
-                    <img alt="" src="images/portfolio/gifTime.png" />
+                    <img alt="" src="images/portfolio/gifTime.PNG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Bestest Directors</h5>
@@ -342,7 +342,7 @@ export default class Portfolio extends Component {
           </div>{/* modal-11 End */}
 
           <div id="modal-12" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/fiboCsharp.png" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/fiboCsharp.PNG" alt="" />
             <div className="description-box">
               <h4>Fibonacci sequence in C#</h4>
               <p>This is about as nerdy as it gets. Node word guess game that uses Node.js. Based on Frank Herbert's Dune. Its not going to be easy.</p>
@@ -355,7 +355,7 @@ export default class Portfolio extends Component {
           </div>{/* modal-12 End */}
 
           <div id="modal-13" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/dnsFirebaseHostingInstructions.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/dnsFirebaseHostingInstructions.JPG" alt="" />
             <div className="description-box">
               <h4>DNS Transfer Firebase NameCheap.com</h4>
               <p>How to create a masked domain transfer from Firebase and NameCheap</p>
