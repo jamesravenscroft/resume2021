@@ -53,7 +53,7 @@ export default class Resume extends Component {
                 <p className="info">Web Designer <span>•</span> <em className="date">2019- Present</em></p>
                 <p>
                  Built fast loading websites for clients including 
-              <a href="https://agapedaycaresd.com"> Agape Daycare.</a> Consulted for <a href="https://reliablepainting.com/contact.html">Reliable Painting,</a> and <a href="itsthekeeperleague.com">The Keeper League.</a>
+              <a href="https://agapedaycaresd.com"> Agape Daycare.</a> Consulted for <a href="https://reliablepainting.com/contact.html">Reliable Painting,</a> and <a href="http://itsthekeeperleague.com">The Keeper League.</a>
                 </p>
               </div>
             </div> {/* item end */}

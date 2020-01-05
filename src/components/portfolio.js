@@ -249,7 +249,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-09" title="true">
-                    <img alt="" src="./images/portfolio/enterNodeCmd5.JPG" />
+                    <img alt="enternode" src="./images/portfolio/enterNodeCmd5.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Supermarket</h5>
@@ -308,27 +308,29 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-08 End */}
+          {/* modal-09 Supermarket */}
           <div id="modal-09" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="./images/portfolio/enterNodeCmd5.JPG" alt="entercmd" />
+            <img className="scale-with-grid" src="./images/portfolio/enterNodeCmd5.jpg" alt="entercmd" />
             <div className="description-box">
-              <h4>ComingSoon</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+              <h4>SuperMarket</h4>
+              <p>This Back End app allows your to buy, sell and check Inventory.</p>
+              <span className="categories"><i className="fa fa-tag" />Node, MySQL</span>
             </div>
             <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a href="https://github.com/jamesravenscroft/SuperMarket">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-09 End */}
+          {/* modal-10 liri */}
           <div id="modal-10" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/liri.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/liri.jpg" alt="liri" />
             <div className="description-box">
-              <h4>ComingSoon</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+              <h4>Liri Personal Assistant.</h4>
+             <p>Search for Upcoming Concerts, Read Movie Reviews and Play Spotify Songs, all from the comfort of your command line.</p>
+               <span className="categories"><i className="fa fa-tag" />Node, Javascript</span>
             </div>
             <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a href="https://github.com/jamesravenscroft/newLiriFixy">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-10 End */}
@@ -349,7 +351,7 @@ export default class Portfolio extends Component {
             <img className="scale-with-grid" src="images/portfolio/fiboCsharp.PNG" alt="" />
             <div className="description-box">
               <h4>Fibonacci sequence in C#</h4>
-              <p>This is about as nerdy as it gets. Node word guess game that uses Node.js. Based on Frank Herbert's Dune. Its not going to be easy.</p>
+              <p>Basic Fibonacci Sequence in C#</p>
               <span className="categories"><i className="fa fa-tag" />Node.js</span>
             </div>
             <div className="link-box">
@@ -377,7 +379,7 @@ export default class Portfolio extends Component {
           <div id="modal-21" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
             <div className="description-box">
-              <h4>ComingSoon</h4>
+              <h4>ComingSoon- Factorials in C#</h4>
               <p>ComingSoon</p>
               <span className="categories"><i className="fa fa-tag" />Branding</span>
             </div>
@@ -389,7 +391,7 @@ export default class Portfolio extends Component {
           <div id="modal-04" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
             <div className="description-box">
-              <h4>ComingSoon</h4>
+              <h4>ComingSoon- Writing variables in SQL</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Photography</span>
             </div>
@@ -413,7 +415,7 @@ export default class Portfolio extends Component {
           <div id="modal-23" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
             <div className="description-box">
-              <h4>ComingSoon</h4>
+              <h4>ComingSoon- Common SQL situations </h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Photography</span>
             </div>
@@ -425,7 +427,7 @@ export default class Portfolio extends Component {
           <div id="modal-24" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
             <div className="description-box">
-              <h4>Origami</h4>
+              <h4>Coming Soon- Returning an input backwards in C#</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
             </div>
@@ -437,7 +439,7 @@ export default class Portfolio extends Component {
           <div id="modal-25" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
             <div className="description-box">
-              <h4>Retrocam</h4>
+              <h4>ComingSoon- How to make a site run faster</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
             </div>
@@ -478,7 +480,7 @@ export default class Portfolio extends Component {
                     <img alt="" src="images/portfolio/console.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>ComingSoon</h5>
+                        <h5>ComingSoon - Changing  List Order in CSS</h5>
                         <p>Web Development</p>
                       </div>
                     </div>
@@ -492,7 +494,7 @@ export default class Portfolio extends Component {
                     <img alt="" src="images/portfolio/judah.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>ComingSoon</h5>
+                        <h5>ComingSoon- Factorials in C#</h5>
                         <p>Webdesign</p>
                       </div>
                     </div>
@@ -506,7 +508,7 @@ export default class Portfolio extends Component {
                     <img alt="" src="images/portfolio/into-the-light.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>ComingSoon</h5>
+                        <h5>ComingSoon- Variables in MySQL</h5>
                         <p>ComingSoon</p>
                       </div>
                     </div>
@@ -534,7 +536,7 @@ export default class Portfolio extends Component {
                     <img alt="girl" src="./images/portfolio/girl.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>ComingSoon</h5>
+                        <h5>ComingSoon- Common SQL situations</h5>
                         <p>ComingSoon</p>
                       </div>
                     </div>
@@ -548,8 +550,8 @@ export default class Portfolio extends Component {
                     <img alt="" src="images/portfolio/origami.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Origami</h5>
-                        <p>Illustrration</p>
+                        <h5>Coming Soon- Returning an input backwards in C#</h5>
+                        <p>C#</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -562,7 +564,7 @@ export default class Portfolio extends Component {
                     <img alt="" src="images/portfolio/retrocam.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>ComingSoon</h5>
+                        <h5>ComingSoon- How to make a site run faster</h5>
                         <p>ComingSoon</p>
                       </div>
                     </div>
@@ -590,7 +592,7 @@ export default class Portfolio extends Component {
           <div id="modal-20" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
             <div className="description-box">
-              <h4>ComingSoon</h4>
+              <h4>ComingSoon- Changing  List Order in CSS</h4>
               <p>ComingSoon</p>
               <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
             </div>
@@ -599,7 +601,7 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-20 End */}
-          <div id="modal-09" className="popup-modal mfp-hide">
+          {/* <div id="modal-09" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="./images/portfolio/enterNodeCmd5.JPG" alt="entercmd" />
             <div className="description-box">
               <h4>ComingSoon</h4>
@@ -609,8 +611,9 @@ export default class Portfolio extends Component {
             <div className="link-box">
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-09 End */}
+            </div> */}
+          {/* </div> */}
+          {/* modal-09 End */}
 
           <div id="modal-21" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
@@ -627,7 +630,7 @@ export default class Portfolio extends Component {
           <div id="modal-22" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
             <div className="description-box">
-              <h4>ComingSoon</h4>
+              <h4>ComingSoon- Variables in MySQL</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Photography</span>
             </div>
@@ -651,7 +654,7 @@ export default class Portfolio extends Component {
           <div id="modal-23" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/girl.JPG" alt="girlmodal" />
             <div className="description-box">
-              <h4>ComingSoonl</h4>
+              <h4>ComingSoon- Common SQL situations</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Photography</span>
             </div>
@@ -665,7 +668,7 @@ export default class Portfolio extends Component {
           <div id="modal-24" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
             <div className="description-box">
-              <h4>Origami</h4>
+              <h4>Coming Soon- Returning an input backwards in C#</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
             </div>
@@ -677,7 +680,7 @@ export default class Portfolio extends Component {
           <div id="modal-25" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
             <div className="description-box">
-              <h4>Retrocam</h4>
+              <h4>ComingSoon- How to make a site run faster</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
               <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
             </div>
