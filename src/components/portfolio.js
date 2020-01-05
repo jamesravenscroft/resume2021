@@ -594,7 +594,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-02 End */}
           <div id="modal-09" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/enterNodeCmd5.JPG" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/enterNodeCmd5.JPG" alt="" />
             <div className="description-box">
               <h4>ComingSoon</h4>
               <p>ComingSoon</p>
@@ -643,7 +643,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/shapeHunterKid.JPG" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/shapeHunterKid.JPG" alt="" />
             <div className="description-box">
               <h4>ComingSoonl</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
