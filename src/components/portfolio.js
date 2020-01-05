@@ -86,7 +86,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title="true">
-                    <img alt="" src="images/portfolio/shapeHunterKid.jpg" />
+                    <img alt="" src="images/portfolio/shapeHunterKid.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Shape Hunter</h5>
@@ -174,7 +174,7 @@ export default class Portfolio extends Component {
           {/* Market Snapshot */}
 
           <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/mksnapshot.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/mksnapshot.JPG" alt="" />
             <div className="description-box">
               <h4>Market Snapshot</h4>
               <p>Check Housing Trends in San Diego</p>
@@ -200,7 +200,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/shapeHunterKid.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/shapeHunterKid.JPG" alt="" />
             <div className="description-box">
               <h4>Shape Hunter</h4>
               <p>HTML Kid's game for ages 2-3</p>
@@ -224,7 +224,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-07 End */}
           <div id="modal-08" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/gifTime.png" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/gifTime.PNG" alt="" />
             <div className="description-box">
               <h4>Bestest Directors</h4>
               <p>We all love movies. Let's recap some epic moments from your favorite directors.</p>
@@ -456,7 +456,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-12" title="true">
-                    <img alt="" src="images/portfolio/fiboCsharp.png" />
+                    <img alt="" src="images/portfolio/fiboCsharp.PNG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>C#</h5>
@@ -512,7 +512,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-13" title="true">
-                    <img alt="" src="images/portfolio/dnsNameCheapSuccess.jpg" />
+                    <img alt="" src="images/portfolio/dnsNameCheapSuccess.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Firebase DNS Transfer</h5>
@@ -594,7 +594,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-02 End */}
           <div id="modal-09" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/enterNodeCmd5.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/enterNodeCmd5.JPG" alt="" />
             <div className="description-box">
               <h4>ComingSoon</h4>
               <p>ComingSoon</p>
@@ -643,7 +643,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/shapeHunterKid.jpg" alt="" />
+            <img className="scale-with-grid" src="images/shapeHunterKid.JPG" alt="" />
             <div className="description-box">
               <h4>ComingSoonl</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
