@@ -10,9 +10,11 @@ export default class Portfolio extends Component {
           <div className="twelve columns collapsed">
             <h1>Recent Projects</h1>
             {/* portfolio-wrapper */}
+   
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
+                {/* modal-01 SwordMasters */}
                   <a href="#modal-01" title="true">
                     <img alt="" src="images/portfolio/swordmasterslogo.jpg" />
                     <div className="overlay">
@@ -129,7 +131,7 @@ export default class Portfolio extends Component {
           </div> {/* twelve columns end */}
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
-      {/* SwordMasters Modal */}
+      {/* SwordMasters Modal-01 */}
           <div id="modal-01" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/battleMenuDemo.jpg" alt="" />
             <div className="description-box">
@@ -234,7 +236,7 @@ export default class Portfolio extends Component {
               <a href="https://jamesravenscroft.github.io/gifTime/">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-01 End */}
+          </div>{/* modal-07 End */}
         </div> {/* row End */}
       </section>
 
@@ -292,6 +294,8 @@ export default class Portfolio extends Component {
           </div> {/* twelve columns end */}
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
+        {/* modal-08 coffee cup */}
+        
           <div id="modal-08" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
             <div className="description-box">
@@ -303,7 +307,7 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-01 End */}
+          </div>{/* modal-08 End */}
           <div id="modal-09" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/enterNodeCmd5.jpg" alt="" />
             <div className="description-box">
@@ -370,7 +374,7 @@ export default class Portfolio extends Component {
 
 
 
-          <div id="modal-03" className="popup-modal mfp-hide">
+          <div id="modal-21" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
             <div className="description-box">
               <h4>ComingSoon</h4>
@@ -418,7 +422,7 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-06 End */}
-          <div id="modal-07" className="popup-modal mfp-hide">
+          <div id="modal-24" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
             <div className="description-box">
               <h4>Origami</h4>
@@ -429,8 +433,8 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-07 End */}
-          <div id="modal-08" className="popup-modal mfp-hide">
+          </div>{/* modal-24 End */}
+          <div id="modal-25" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
             <div className="description-box">
               <h4>Retrocam</h4>
@@ -467,9 +471,10 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
+              {/* modal-20 console */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-02" title="true">
+                  <a href="#modal-20" title="true">
                     <img alt="" src="images/portfolio/console.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -483,7 +488,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-03" title="true">
+                  <a href="#modal-21" title="true">
                     <img alt="" src="images/portfolio/judah.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -497,7 +502,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-04" title="true">
+                  <a href="#modal-22" title="true">
                     <img alt="" src="images/portfolio/into-the-light.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -525,7 +530,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-06" title="true">
+                  <a href="#modal-23" title="true">
                     <img alt="" src="images/portfolio/girl.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -539,7 +544,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-07" title="true">
+                  <a href="#modal-24" title="true">
                     <img alt="" src="images/portfolio/origami.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -553,7 +558,7 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-08" title="true">
+                  <a href="#modal-25" title="true">
                     <img alt="" src="images/portfolio/retrocam.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -569,7 +574,8 @@ export default class Portfolio extends Component {
           </div> {/* twelve columns end */}
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
-          <div id="modal-01" className="popup-modal mfp-hide">
+        {/* modal-08 coffee cup */}
+          <div id="modal-08" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
             <div className="description-box">
               <h4>ComingSoon</h4>
@@ -580,8 +586,8 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-01 End */}
-          <div id="modal-02" className="popup-modal mfp-hide">
+          </div>{/* modal-08 End */}
+          <div id="modal-20" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
             <div className="description-box">
               <h4>ComingSoon</h4>
@@ -592,7 +598,7 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-02 End */}
+          </div>{/* modal-20 End */}
           <div id="modal-09" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/enterNodeCmd5.JPG" alt="" />
             <div className="description-box">
@@ -606,7 +612,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-09 End */}
 
-          <div id="modal-03" className="popup-modal mfp-hide">
+          <div id="modal-21" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
             <div className="description-box">
               <h4>ComingSoon</h4>
@@ -617,8 +623,8 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-03 End */}
-          <div id="modal-04" className="popup-modal mfp-hide">
+          </div>{/* modal-21 End */}
+          <div id="modal-22" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
             <div className="description-box">
               <h4>ComingSoon</h4>
@@ -642,8 +648,8 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
-          <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/shapeHunterKid.JPG" alt="" />
+          <div id="modal-23" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/girl.JPG" alt="" />
             <div className="description-box">
               <h4>ComingSoonl</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -653,8 +659,10 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-06 End */}
-          <div id="modal-07" className="popup-modal mfp-hide">
+          </div>{/* modal-23 End */}
+
+          {/* Modal-24 origami */}
+          <div id="modal-24" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
             <div className="description-box">
               <h4>Origami</h4>
@@ -666,7 +674,7 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-07 End */}
-          <div id="modal-08" className="popup-modal mfp-hide">
+          <div id="modal-25" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
             <div className="description-box">
               <h4>Retrocam</h4>
@@ -677,7 +685,7 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-01 End */}
+          </div>{/* 7 End */}
         </div> {/* row End */}
       </section>
 
