@@ -88,7 +88,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title="true">
-                    <img alt="shapeHunterKid" src="./images/portfolio/shapeHunterKid.JPG" />
+                    <img alt="shapeHunterKid" src="./images/portfolio/shapeHunterKid.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Shape Hunter</h5>
@@ -202,7 +202,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="./images/portfolio/shapeHunterKid.JPG" alt="shapehunterkid" />
+            <img className="scale-with-grid" src="./images/portfolio/shapeHunterKid.jpg" alt="shapehunterkid" />
             <div className="description-box">
               <h4>Shape Hunter</h4>
               <p>HTML Kid's game for ages 2-3</p>
@@ -249,7 +249,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-09" title="true">
-                    <img alt="" src="./images/portfolio/enterNodeCmd5.jpg" />
+                    <img alt="" src="./images/portfolio/enterNodeCmd5.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Supermarket</h5>
@@ -309,7 +309,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-08 End */}
           <div id="modal-09" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="./images/portfolio/enterNodeCmd5.jpg" alt="entercmd" />
+            <img className="scale-with-grid" src="./images/portfolio/enterNodeCmd5.JPG" alt="entercmd" />
             <div className="description-box">
               <h4>ComingSoon</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -531,7 +531,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-23" title="true">
-                    <img alt="" src="./images/portfolio/girl.jpg" />
+                    <img alt="girl" src="./images/portfolio/girl.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>ComingSoon</h5>
