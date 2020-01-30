@@ -33,7 +33,7 @@ export default class Portfolio extends Component {
  {/* switch to nicole frank */}
                 <div className="item-wrap">
                   <a href="#modal-NF" title="true">
-                    <img alt="nicoletwe1" src="images/portfolio/nicoleFrankTWE1.jpg" />
+                    <img alt="nicoletwe1" src="images/portfolio/nicoleFrankTWE1.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Nicole Frank TWE</h5>
@@ -155,7 +155,7 @@ export default class Portfolio extends Component {
  {/* switch to nicole frank */}
 
         <div id="modal-NF" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/nicoleFrankTWE2.jpg" alt="nicoletwe2" />
+            <img className="scale-with-grid" src="images/portfolio/nicoleFrankTWE2.JPG" alt="nicoletwe2" />
             <div className="description-box">
               <h4>Nicole Frank TWE</h4>
               <p>The Wardrobe Evolution</p>
