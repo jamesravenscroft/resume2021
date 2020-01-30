@@ -50,9 +50,9 @@ export default class Resume extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <h3>Freelance Web Designer</h3>
-                <p className="info">Web Designer <span>•</span> <em className="date">2019- Present</em></p>
+                <p className="info">Web Designer <span>•</span> <em className="date">2015- Present</em></p>
                 <p>
-                 Built fast loading websites for clients including 
+                 Built and maintained fast loading websites for clients including <a href="https://www.nicolefranktwe.com">Nicole Frank TWE </a>and
               <a href="https://agapedaycaresd.com"> Agape Daycare.</a> Consulted for <a href="https://reliablepainting.com/contact.html">Reliable Painting,</a> and <a href="http://itsthekeeperleague.com">The Keeper League.</a>
                 </p>
               </div>

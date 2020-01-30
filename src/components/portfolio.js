@@ -29,18 +29,22 @@ export default class Portfolio extends Component {
                 </div>
               </div> {/* item end */}
               <div className="columns portfolio-item">
+                
+ {/* switch to nicole frank */}
                 <div className="item-wrap">
-                  <a href="#modal-02" title="true">
-                    <img alt="" src="images/portfolio/banner2.jpg" />
+                  <a href="#modal-NF" title="true">
+                    <img alt="nicoletwe1" src="images/portfolio/nicoleFrankTWE1.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Agape Day Care</h5>
-                        <p>Agape Day Care San Diego</p>
+                        <h5>Nicole Frank TWE</h5>
+                        <p>The Wardrobe Evolution</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
+ {/* end switch to nicole frank */}
+                
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
@@ -147,19 +151,26 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-01 End */}
-        {/* Agape Day Care Modal */}
-          <div id="modal-02" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/banner2.jpg" alt="" />
+
+ {/* switch to nicole frank */}
+
+        <div id="modal-NF" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/nicoleFrankTWE2.jpg" alt="nicoletwe2" />
             <div className="description-box">
-              <h4>Agape Day Care</h4>
-              <p>World Class Day Care in San Diego, CA</p>
-              <span className="categories"><i className="fa fa-tag" />Business, Web Development</span>
+              <h4>Nicole Frank TWE</h4>
+              <p>The Wardrobe Evolution</p>
+              <span className="categories"><i className="fa fa-tag" />Fashion</span>
             </div>
             <div className="link-box">
-              <a href="http://www.agapegaycaresd.com">Visit</a>
+              <a href="http://www.nicolefranktwe.com">Visit</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-02 End */}
+          </div>
+        {/*end switch to nicole frank */}   
+
+
+
+}
   {/* Reason to Drink */}
           <div id="modal-03" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/beerMugs.jpg" alt="beermugs" />
@@ -197,7 +208,7 @@ export default class Portfolio extends Component {
               <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
             </div>
             <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a href="https://jamesravenscroft.github.io/pure-react-animalchemists/">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
@@ -533,7 +544,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-23" title="true">
-                    <img alt="girl" src="./images/portfolio/girl.JPG" />
+                    <img alt="girl" src="./images/portfolio/girl.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>ComingSoon- Common SQL situations</h5>
