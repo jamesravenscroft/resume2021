@@ -424,7 +424,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-23" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.JPG" alt="" />
             <div className="description-box">
               <h4>ComingSoon- Common SQL situations </h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -436,7 +436,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-23 End */}
           <div id="modal-24" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.JPG" alt="" />
             <div className="description-box">
               <h4>Coming Soon- Returning an input backwards in C#</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -488,7 +488,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-20" title="true">
-                    <img alt="" src="images/portfolio/cssMover.jpg" />
+                    <img alt="" src="images/portfolio/cssMover.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Changing  List Order in CSS</h5>
@@ -544,7 +544,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-23" title="true">
-                    <img alt="mySqlEmplooyees" src="./images/portfolio/mySqlEmployees.jpg" />
+                    <img alt="mySqlEmplooyees" src="./images/portfolio/mySqlEmployees.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Common SQL situations</h5>
@@ -558,7 +558,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-24" title="true">
-                    <img alt="" src="images/portfolio/cSharpReversal.jpg" />
+                    <img alt="" src="images/portfolio/cSharpReversal.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Coming Soon- Returning an input backwards in C#</h5>
@@ -601,7 +601,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-08 End */}
           <div id="modal-20" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/cssMover.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/cssMover.JPG" alt="" />
             <div className="description-box">
               <h4>Changing  List Order in CSS</h4>
               <p>ComingSoon</p>
@@ -677,7 +677,7 @@ export default class Portfolio extends Component {
 
           {/* Modal-24 cShaprReversal */}
           <div id="modal-24" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.JPG" alt="" />
             <div className="description-box">
               <h4>Coming Soon- Returning an input backwards in C#</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
