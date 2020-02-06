@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/resume2021/static/css/main.0b1f8bad.chunk.css",
-    "main.js": "/resume2021/static/js/main.3b0ff615.chunk.js",
-    "main.js.map": "/resume2021/static/js/main.3b0ff615.chunk.js.map",
+    "main.js": "/resume2021/static/js/main.4c8d371c.chunk.js",
+    "main.js.map": "/resume2021/static/js/main.4c8d371c.chunk.js.map",
     "runtime-main.js": "/resume2021/static/js/runtime-main.876e2678.js",
     "runtime-main.js.map": "/resume2021/static/js/runtime-main.876e2678.js.map",
     "static/js/2.4b1418d3.chunk.js": "/resume2021/static/js/2.4b1418d3.chunk.js",
     "static/js/2.4b1418d3.chunk.js.map": "/resume2021/static/js/2.4b1418d3.chunk.js.map",
     "index.html": "/resume2021/index.html",
-    "precache-manifest.ec9da482fac2aa99502caf489f38fd6f.js": "/resume2021/precache-manifest.ec9da482fac2aa99502caf489f38fd6f.js",
+    "precache-manifest.41db0b7c8341c3a608bed1a042dcb14c.js": "/resume2021/precache-manifest.41db0b7c8341c3a608bed1a042dcb14c.js",
     "service-worker.js": "/resume2021/service-worker.js",
     "static/css/main.0b1f8bad.chunk.css.map": "/resume2021/static/css/main.0b1f8bad.chunk.css.map",
     "static/js/2.4b1418d3.chunk.js.LICENSE": "/resume2021/static/js/2.4b1418d3.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.876e2678.js",
     "static/js/2.4b1418d3.chunk.js",
     "static/css/main.0b1f8bad.chunk.css",
-    "static/js/main.3b0ff615.chunk.js"
+    "static/js/main.4c8d371c.chunk.js"
   ]
 }
