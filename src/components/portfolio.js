@@ -403,8 +403,8 @@ export default class Portfolio extends Component {
             <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
             <div className="description-box">
               <h4>ComingSoon- Writing variables in SQL</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
+              <p>Databases, Databases , Databases</p>
+              <span className="categories"><i className="fa fa-tag" />Databases</span>
             </div>
             <div className="link-box">
               <a href="http://www.jamesravenscroft3.com">Details</a>
@@ -424,7 +424,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-23" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.jpg" alt="" />
             <div className="description-box">
               <h4>ComingSoon- Common SQL situations </h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -436,7 +436,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-23 End */}
           <div id="modal-24" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.jpg" alt="" />
             <div className="description-box">
               <h4>Coming Soon- Returning an input backwards in C#</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -488,10 +488,10 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-20" title="true">
-                    <img alt="" src="images/portfolio/console.jpg" />
+                    <img alt="" src="images/portfolio/cssMover.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>ComingSoon - Changing  List Order in CSS</h5>
+                        <h5>Changing  List Order in CSS</h5>
                         <p>Web Development</p>
                       </div>
                     </div>
@@ -544,10 +544,10 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-23" title="true">
-                    <img alt="girl" src="./images/portfolio/girl.jpg" />
+                    <img alt="mySqlEmplooyees" src="./images/portfolio/mySqlEmployees.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>ComingSoon- Common SQL situations</h5>
+                        <h5>Common SQL situations</h5>
                         <p>ComingSoon</p>
                       </div>
                     </div>
@@ -558,7 +558,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-24" title="true">
-                    <img alt="" src="images/portfolio/origami.jpg" />
+                    <img alt="" src="images/portfolio/cSharpReversal.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Coming Soon- Returning an input backwards in C#</h5>
@@ -601,9 +601,9 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-08 End */}
           <div id="modal-20" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/cssMover.jpg" alt="" />
             <div className="description-box">
-              <h4>ComingSoon- Changing  List Order in CSS</h4>
+              <h4>Changing  List Order in CSS</h4>
               <p>ComingSoon</p>
               <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
             </div>
@@ -663,7 +663,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-23" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/girl.JPG" alt="girlmodal" />
+            <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.JPG" alt="mySqlModal" />
             <div className="description-box">
               <h4>ComingSoon- Common SQL situations</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -675,9 +675,9 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-23 End */}
 
-          {/* Modal-24 origami */}
+          {/* Modal-24 cShaprReversal */}
           <div id="modal-24" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.jpg" alt="" />
             <div className="description-box">
               <h4>Coming Soon- Returning an input backwards in C#</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -687,7 +687,7 @@ export default class Portfolio extends Component {
               <a href="http://www.jamesravenscroft3.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
-          </div>{/* modal-07 End */}
+          </div>{/* modal-24 End */}
           <div id="modal-25" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
             <div className="description-box">
