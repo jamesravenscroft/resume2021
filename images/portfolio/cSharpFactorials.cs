@@ -12,18 +12,11 @@ namespace factorial
         number = int.Parse(Console.ReadLine());
         fact = number;
         for (i = number -1; i>=1; i--)
-       { fact= fact * i;
-        
-        }
+       { fact= fact * i;  }
     Console.WriteLine("\nFactorial of Given Number is:"+fact);
     Console.ReadLine();
     }
 }
-
-
-
-
-
 
 //using Recursion JR3
 
