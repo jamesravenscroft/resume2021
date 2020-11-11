@@ -12,12 +12,23 @@ export default class Resume extends Component {
             <h1><span>Education</span></h1>
           </div>
           <div className="nine columns main-col">
-            <div className="row item">
+          <div className="row item">
               <div className="twelve columns">
                 <h3>UC San Diego</h3>
                 <p className="info">Full Stack Web Developer <span>•</span> <em className="date">2019</em></p>
                 <p>
                   Immersive 24 week certification course covering HTML, CSS, Javascript, jQuery, MySQL, MongoDB, Express, React, MVC, ORM, Scrum, Kanban, Sequelize, Python, Java, C#, Big O Notation.
+                  </p>
+              </div>
+            </div> {/* item end */}
+
+
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>StackSkills</h3>
+                <p className="info">Scrum Master Program <span>•</span> <em className="date">2020- Present</em></p>
+                <p>
+                 Agile, Project Management Professional.
                   </p>
               </div>
             </div> {/* item end */}
@@ -38,6 +49,19 @@ export default class Resume extends Component {
             <h1><span>Work</span></h1>
           </div>
           <div className="nine columns main-col">
+          <div className="row item">
+              <div className="twelve columns">
+                <h3>Trevita</h3>
+                <p className="info">App Project Manager, Web Developer.  <span>•</span> <em className="date">2020</em></p>
+                <p>
+                Overseeing UI changes for iOS and Android App. 
+                </p>
+              </div>
+            </div> {/* item end */}
+
+
+
+
             <div className="row item">
               <div className="twelve columns">
                 <h3>The Coder School of La Jolla</h3>
@@ -47,7 +71,15 @@ export default class Resume extends Component {
                 </p>
               </div>
             </div> {/* item end */}
+
+  
+
+
+
+            
             <div className="row item">
+
+              
               <div className="twelve columns">
                 <h3>Freelance Web Designer</h3>
                 <p className="info">Web Designer <span>•</span> <em className="date">2015- Present</em></p>
@@ -66,7 +98,7 @@ export default class Resume extends Component {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>MERN stack-(MongoDB, Express, React, Node), HTML5, CSS3, Javascript, jQuery,  PHP, AWS, SQL, Python, Java, C#, Linux. Below is a bar graph that doesn't mean anything, it exists merely because bar graphs are cool.
+            <p>MERN stack-(MongoDB, Express, React, Node), HTML5, CSS3, Javascript, jQuery,  PHP, AWS(documentDB, S3), SQL, Python, Java, C#, Linux. Below is a bar graph that doesn't mean anything, it exists merely because bar graphs are cool.
             </p>
             <div className="bars">
               <ul className="skills">

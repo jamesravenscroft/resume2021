@@ -1,0 +1,142 @@
+  <div id="modal-04" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+            <div className="description-box">
+              <h4>ComingSoon- Writing variables in SQL</h4>
+              <p>Databases, Databases , Databases</p>
+              <span className="categories"><i className="fa fa-tag" />Databases</span>
+            </div>
+            <div className="link-box">
+              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-04 End */}
+
+           <div id="modal-21" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/cSharpFactorials.JPG" alt="cSharpFactorials" />
+            <div className="description-box">
+              <h4>ComingSoon- Factorials in C#</h4>
+              <p>ComingSoon</p>
+              <span className="categories"><i className="fa fa-tag" />Branding</span>
+            </div>
+            <div className="link-box">
+              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-03 End */}
+        
+
+            {/* Modal-24 cShaprReversal */}
+          <div id="modal-24" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.JPG" alt="" />
+            <div className="description-box">
+              <h4>Coming Soon- Returning an input backwards in C#</h4>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <span className="categories"><i className="fa fa-tag" />C#</span>
+            </div>
+            <div className="link-box">
+              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-24 End */}
+
+                <div className="columns portfolio-item" style={{paddingTop:15}} >
+                <div className="item-wrap">
+                  <a href="#modal-13" title="true">
+                    <img alt="" src="images/portfolio/dnsNameCheapSuccess.JPG" 
+                          />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Firebase DNS Transfer</h5>
+                        <p>How to mask DNS transfer</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+
+                <div className="columns portfolio-item" style={{paddingTop:15}}>
+                <div className="item-wrap">
+                  <a href="#modal-23" title="true">
+                    <img alt="mySqlEmplooyees" src="./images/portfolio/mySqlEmployees.JPG" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Common SQL situations</h5>
+                        <p>ComingSoon</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+
+
+               <div id="modal-24" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.JPG" alt="" />
+            <div className="description-box">
+              <h4>Coming Soon- Returning an input backwards in C#</h4>
+              <p>C# basics</p>
+              <span className="categories"><i className="fa fa-tag" />C#</span>
+            </div>
+            <div className="link-box">
+              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-24 End */}
+
+             <div className="columns portfolio-item" style={{padding: '5px'}}>
+                <div className="item-wrap">
+                  <a href="#modal-24" title="true">
+                    <img alt="" src="images/portfolio/cSharpReversal.JPG" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Coming Soon- Returning an input backwards in C#</h5>
+                        <p>C#</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+
+
+                   <div id="modal-25" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/ginazGame6PerformanceRank20July2019.jpg" alt="ginazPerformance" />
+            <div className="description-box">
+              <h4>ComingSoon- How to make a site run faster</h4>
+              <p>We'll go over how to run website speed tests, reduce image sizes and removed unused files.</p>
+              <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
+            </div>
+            <div className="link-box">
+              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-25 End */}
+
+           <div id="modal-25" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/ginazGame6PerformanceRank20July2019.jpg" alt="ginazPerformance" />
+            <div className="description-box">
+              <h4>ComingSoon- How to make a site run faster</h4>
+              <p>When you have a great idea and want to get it in front of people faster!</p>
+              <span className="categories"><i className="fa fa-tag" />Webdesign, Hosting</span>
+            </div>
+            <div className="link-box">
+              <a href="http://www.jamesravenscroft3.com">Details</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* 7 End */}
+
+            <div className="columns portfolio-item" style={{padding: '5px', paddingTop:"-50px"}}>
+                <div className="item-wrap">
+                  <a href="#modal-25" title="true">
+                    <img alt="" src="images/portfolio/ginazGame6PerformanceRank20July2019.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>ComingSoon- How to make a site run faster</h5>
+                        <p>ComingSoon</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div>  {/* item end */}

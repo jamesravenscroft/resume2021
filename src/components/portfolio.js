@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import "../magnific-popup.css"
 export default class Portfolio extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
             {/* portfolio-wrapper */}
    
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              <div className="columns portfolio-item">
+              <div className="columns portfolio-item" >
                 <div className="item-wrap">
                 {/* modal-01 SwordMasters */}
                   <a href="#modal-01" title="true">
@@ -30,7 +30,26 @@ export default class Portfolio extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 
+                 {/* switch to Trevita */}
+                 <div className="item-wrap">
+                  <a href="#modal-TR" title="true">
+                    <img alt="trevita1" src="images/portfolio/TrevitaWebsitej.JPG" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Trevita</h5>
+                        <p>Health App</p>
+                        <p>iOS, Android, MongoDB, AWS.</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                  </div></div>
+ {/* end switch to Trevita */}
+              
+           
+
  {/* switch to nicole frank */}
+          <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-NF" title="true">
                     <img alt="nicoletwe1" src="images/portfolio/nicoleFrankTWE1.JPG" />
@@ -46,23 +65,11 @@ export default class Portfolio extends Component {
  {/* end switch to nicole frank */}
                 
               </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-03" title="true">
-                    <img alt="" src="images/portfolio/beerMugs.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>ReasonToDrink.Fun</h5>
-                        <p>Be more social</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
+
+              
               <br/>
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
+              <div className="columns portfolio-item" style={{marginTop:-25}}>
+                <div className="item-wrap" >
                   <a href="#modal-04" title="true">
                     <img alt="mksnap" src="images/portfolio/mksnapshot.JPG" />
                     <div className="overlay">
@@ -89,7 +96,27 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
+            
+              {/* Reason TO DRINK */}
               <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-03" title="true">
+                    <img alt="" src="images/portfolio/beerMugs.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>ReasonToDrink.Fun</h5>
+                        <p>Be more social</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> 
+              {/* item end */}
+
+
+                {/* ShapeHunter */}
+              {/* <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title="true">
                     <img alt="shapeHunterKid" src="./images/portfolio/shapeHunterKid.jpg" />
@@ -102,7 +129,9 @@ export default class Portfolio extends Component {
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> */}
+               {/* item end */}
+              
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-07" title="true">
@@ -133,8 +162,7 @@ export default class Portfolio extends Component {
               </div>  {/* item end */}
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
-          {/* Modal Popup
-	      --------------------------------------------------------------- */}
+          {/* Modal Popup---------------------------------------------- */}
       {/* SwordMasters Modal-01 */}
           <div id="modal-01" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/battleMenuDemo.jpg" alt="" />
@@ -169,8 +197,22 @@ export default class Portfolio extends Component {
         {/*end switch to nicole frank */}   
 
 
+         {/* switch to Trevita */}
 
-}
+         <div id="modal-TR" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/modals/m-trevita.JPG" alt="trevita" />
+            <div className="description-box">
+              <h4>Trevita</h4>
+              <p>Health App</p>
+              <span className="categories"><i className="fa fa-tag" />Medical, Wellness</span>
+            </div>
+            <div className="link-box">
+              <a href="http://www.trevita.com">Visit</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>
+        {/*end switch to Trevita */}  
+
   {/* Reason to Drink */}
           <div id="modal-03" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/beerMugs.jpg" alt="beermugs" />
@@ -371,8 +413,8 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-12 End */}
 
-          <div id="modal-13" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/dnsFirebaseHostingInstructions.JPG" alt="" />
+          <div id="modal-13" className="popup-modal mfp-hide" style={{float: "left"}}>
+            <img className="scale-with-grid" src="images/portfolio/dnsFirebaseHostingInstructions.JPG" alt="dnsTransfer" />
             <div className="description-box">
               <h4>DNS Transfer Firebase NameCheap.com</h4>
               <p>How to create a masked domain transfer from Firebase and NameCheap</p>
@@ -387,30 +429,7 @@ export default class Portfolio extends Component {
 
 
 
-          <div id="modal-21" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-            <div className="description-box">
-              <h4>ComingSoon- Factorials in C#</h4>
-              <p>ComingSoon</p>
-              <span className="categories"><i className="fa fa-tag" />Branding</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-03 End */}
-          <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-            <div className="description-box">
-              <h4>ComingSoon- Writing variables in SQL</h4>
-              <p>Databases, Databases , Databases</p>
-              <span className="categories"><i className="fa fa-tag" />Databases</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-04 End */}
+         
           <div id="modal-05" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
             <div className="description-box">
@@ -423,7 +442,7 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
-          <div id="modal-23" className="popup-modal mfp-hide">
+          <div id="modal-23" className="popup-modal mfp-hide" style={{float:"left", paddingRight:200}}>
             <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.JPG" alt="" />
             <div className="description-box">
               <h4>ComingSoon- Common SQL situations </h4>
@@ -435,30 +454,8 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-23 End */}
-          <div id="modal-24" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.JPG" alt="" />
-            <div className="description-box">
-              <h4>Coming Soon- Returning an input backwards in C#</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-24 End */}
-          <div id="modal-25" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-            <div className="description-box">
-              <h4>ComingSoon- How to make a site run faster</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-01 End */}
+         
+     
         </div> {/* row End */}
       </section>
 
@@ -466,11 +463,11 @@ export default class Portfolio extends Component {
 
       <section id="portfolio4">
         <div className="row">
-          <div className="twelve columns collapsed">
+          <div className="twelve columns collapsed" > 
             <h1>Frequently Asked Questions</h1>
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper4" className="bgrid-quarters s-bgrid-thirds cf">
-              <div className="columns portfolio-item">
+              <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-12" title="true">
                     <img alt="" src="images/portfolio/fiboCsharp.PNG" />
@@ -485,7 +482,7 @@ export default class Portfolio extends Component {
                 </div>
               </div> {/* item end */}
               {/* modal-20 console */}
-              <div className="columns portfolio-item">
+              <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-20" title="true">
                     <img alt="" src="images/portfolio/cssMover.JPG" />
@@ -499,10 +496,10 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
+              <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-21" title="true">
-                    <img alt="" src="images/portfolio/judah.jpg" />
+                    <img alt="" src="images/portfolio/cSharpFactorials.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>ComingSoon- Factorials in C#</h5>
@@ -513,10 +510,10 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
+              <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-22" title="true">
-                    <img alt="" src="images/portfolio/into-the-light.jpg" />
+                    <img alt="" src="images/portfolio/mysqVariables.JPG" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>ComingSoon- Variables in MySQL</h5>
@@ -527,66 +524,13 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-13" title="true">
-                    <img alt="" src="images/portfolio/dnsNameCheapSuccess.JPG" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Firebase DNS Transfer</h5>
-                        <p>How to mask DNS transfer</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-23" title="true">
-                    <img alt="mySqlEmplooyees" src="./images/portfolio/mySqlEmployees.JPG" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Common SQL situations</h5>
-                        <p>ComingSoon</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-24" title="true">
-                    <img alt="" src="images/portfolio/cSharpReversal.JPG" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Coming Soon- Returning an input backwards in C#</h5>
-                        <p>C#</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-25" title="true">
-                    <img alt="" src="images/portfolio/retrocam.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>ComingSoon- How to make a site run faster</h5>
-                        <p>ComingSoon</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div>  {/* item end */}
+        
+            
+           
+            
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
-          {/* Modal Popup
-	      --------------------------------------------------------------- */}
+          {/* Modal Popup---- */}
         {/* modal-08 coffee cup */}
           <div id="modal-08" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
@@ -627,7 +571,7 @@ export default class Portfolio extends Component {
           {/* modal-09 End */}
 
           <div id="modal-21" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="judah" />
             <div className="description-box">
               <h4>ComingSoon</h4>
               <p>ComingSoon</p>
@@ -639,11 +583,11 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-21 End */}
           <div id="modal-22" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/mysqVariables.JPG" alt="sqlVar" />
             <div className="description-box">
               <h4>ComingSoon- Variables in MySQL</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
+              <p>How to make variables in SQL</p>
+              <span className="categories"><i className="fa fa-tag" />Databases, Databases, Databases!</span>
             </div>
             <div className="link-box">
               <a href="http://www.jamesravenscroft3.com">Details</a>
@@ -666,7 +610,7 @@ export default class Portfolio extends Component {
             <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.JPG" alt="mySqlModal" />
             <div className="description-box">
               <h4>ComingSoon- Common SQL situations</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              <p>Databases</p>
               <span className="categories"><i className="fa fa-tag" />Photography</span>
             </div>
             <div className="link-box">
@@ -675,31 +619,8 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-23 End */}
 
-          {/* Modal-24 cShaprReversal */}
-          <div id="modal-24" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/cSharpReversal.JPG" alt="" />
-            <div className="description-box">
-              <h4>Coming Soon- Returning an input backwards in C#</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-24 End */}
-          <div id="modal-25" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-            <div className="description-box">
-              <h4>ComingSoon- How to make a site run faster</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.jamesravenscroft3.com">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* 7 End */}
+      
+         
         </div> {/* row End */}
       </section>
 
