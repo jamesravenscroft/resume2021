@@ -44,6 +44,23 @@ export default class Resume extends Component {
         </div> {/* End Education */}
         {/* Work
       ----------------------------------------------- */}
+
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1><span>Work</span></h1>
+          </div>
+          <div className="nine columns main-col">
+          <div className="row item">
+              <div className="twelve columns">
+                <h3>Freelance Dojo</h3>
+                <p className="info">Web Developer, Coding Consultant.  <span>•</span> <em className="date">2020</em></p>
+                <p>
+                Setting up DNS Node JS and Python environments. Building Wordpress and Shopify Sites. 
+                </p>
+              </div>
+            </div> {/* item end */}
+
+          
         <div className="row work">
           <div className="three columns header-col">
             <h1><span>Work</span></h1>
