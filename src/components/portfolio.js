@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
                 <div className="item-wrap">
                 {/* modal-01 SwordMasters */}
                   <a href="#modal-01" title="true">
-                    <img alt="" src="images/portfolio/swordmasterslogo.jpg" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/swordmasterslogo.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>SwordMasters of Ginaz</h5>
@@ -33,7 +33,7 @@ export default class Portfolio extends Component {
                  {/* switch to Trevita */}
                  <div className="item-wrap">
                   <a href="#modal-TR" title="true">
-                    <img alt="trevita1" src="images/portfolio/TrevitaWebsitej.JPG" />
+                    <img alt="trevita1" src={process.env.PUBLIC_URL + '/images/portfolio/TrevitaWebsitej.JPG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Trevita</h5>
@@ -52,7 +52,7 @@ export default class Portfolio extends Component {
           <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-NF" title="true">
-                    <img alt="nicoletwe1" src="images/portfolio/nicoleFrankTWE1.JPG" />
+                    <img alt="nicoletwe1" src={process.env.PUBLIC_URL + '/images/portfolio/nicoleFrankTWE1.JPG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Nicole Frank TWE</h5>
@@ -71,7 +71,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item" style={{marginTop:-25}}>
                 <div className="item-wrap" >
                   <a href="#modal-04" title="true">
-                    <img alt="mksnap" src="images/portfolio/mksnapshot.JPG" />
+                    <img alt="mksnap" src={process.env.PUBLIC_URL + '/images/portfolio/mksnapshot.JPG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Market Snapshot</h5>
@@ -85,7 +85,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item" >
                 <div className="item-wrap">
                   <a href="#modal-05" title="true">
-                    <img alt="" src="images/portfolio/adAnimalchemists.jpg" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/adAnimalchemists.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Animalchemists</h5>
@@ -101,7 +101,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title="true">
-                    <img alt="" src="images/portfolio/beerMugs.jpg" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/beerMugs.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>ReasonToDrink.Fun</h5>
@@ -119,7 +119,7 @@ export default class Portfolio extends Component {
               {/* <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title="true">
-                    <img alt="shapeHunterKid" src="./images/portfolio/shapeHunterKid.jpg" />
+                    <img alt="shapeHunterKid" src={process.env.PUBLIC_URL + '/images/portfolio/shapeHunterKid.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Shape Hunter</h5>
@@ -135,7 +135,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-07" title="true">
-                    <img alt="" src="images/portfolio/fvCover.jpg" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/fvCover.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Fantastic Voyage</h5>
@@ -149,7 +149,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-08" title="true">
-                    <img alt="" src="images/portfolio/gifTime.PNG" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/gifTime.PNG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Bestest Directors</h5>
@@ -165,7 +165,7 @@ export default class Portfolio extends Component {
           {/* Modal Popup---------------------------------------------- */}
       {/* SwordMasters Modal-01 */}
           <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/battleMenuDemo.jpg" alt="" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/modals/battleMenuDemo.jpg'} alt="" />
             <div className="description-box">
               <h4>SwordMasters of Ginaz</h4>
               <p>Immersive Deskop RPG for the Web</p>
@@ -182,8 +182,8 @@ export default class Portfolio extends Component {
 
  {/* switch to nicole frank */}
 
-        <div id="modal-NF" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/nicoleFrankTWE2.JPG" alt="nicoletwe2" />
+    <div id="modal-NF" className="popup-modal mfp-hide">
+      <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/nicoleFrankTWE2.JPG'} alt="nicoletwe2" />
             <div className="description-box">
               <h4>Nicole Frank TWE</h4>
               <p>The Wardrobe Evolution</p>
@@ -199,8 +199,8 @@ export default class Portfolio extends Component {
 
          {/* switch to Trevita */}
 
-         <div id="modal-TR" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-trevita.JPG" alt="trevita" />
+      <div id="modal-TR" className="popup-modal mfp-hide">
+        <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/modals/m-trevita.JPG'} alt="trevita" />
             <div className="description-box">
               <h4>Trevita</h4>
               <p>Health App</p>
@@ -215,7 +215,7 @@ export default class Portfolio extends Component {
 
   {/* Reason to Drink */}
           <div id="modal-03" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/beerMugs.jpg" alt="beermugs" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/beerMugs.jpg'} alt="beermugs" />
             <div className="description-box">
               <h4>Reason To Drink Dot Fun</h4>
               <p>Find a holiday to celebrate, then find a brewery to go party at.</p>
@@ -229,7 +229,7 @@ export default class Portfolio extends Component {
           {/* Market Snapshot */}
 
           <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/mksnapshot.JPG" alt="" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/mksnapshot.JPG'} alt="" />
             <div className="description-box">
               <h4>Market Snapshot</h4>
               <p>Check Housing Trends in San Diego</p>
@@ -243,7 +243,7 @@ export default class Portfolio extends Component {
 
           {/* Animalchemists */}
           <div id="modal-05" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/adAnimalchemists.jpg" alt="" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/adAnimalchemists.jpg'} alt="" />
             <div className="description-box">
               <h4>Animalchemists</h4>
              <p>Card Game for Android (in Development)</p>
@@ -255,7 +255,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="./images/portfolio/shapeHunterKid.jpg" alt="shapehunterkid" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/shapeHunterKid.jpg'} alt="shapehunterkid" />
             <div className="description-box">
               <h4>Shape Hunter</h4>
               <p>HTML Kid's game for ages 2-3</p>
@@ -302,7 +302,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-09" title="true">
-                    <img alt="enternode" src="./images/portfolio/enterNodeCmd5.jpg" />
+                    <img alt="enternode" src={process.env.PUBLIC_URL + '/images/portfolio/enterNodeCmd5.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Supermarket</h5>
@@ -316,7 +316,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-10" title="true">
-                    <img alt="" src="images/portfolio/liri.jpg" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/liri.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Personal Assistant</h5>
@@ -330,7 +330,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-11" title="true">
-                    <img alt="" src="images/portfolio/wordGuess.jpg" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/wordGuess.jpg'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Dune Quiz</h5>
@@ -363,7 +363,7 @@ export default class Portfolio extends Component {
           </div>{/* modal-08 End */}
           {/* modal-09 Supermarket */}
           <div id="modal-09" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="./images/portfolio/enterNodeCmd5.jpg" alt="entercmd" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/enterNodeCmd5.jpg'} alt="entercmd" />
             <div className="description-box">
               <h4>SuperMarket</h4>
               <p>This Back End app allows your to buy, sell and check Inventory.</p>
@@ -376,7 +376,7 @@ export default class Portfolio extends Component {
           </div>{/* modal-09 End */}
           {/* modal-10 liri */}
           <div id="modal-10" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/liri.jpg" alt="liri" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/liri.jpg'} alt="liri" />
             <div className="description-box">
               <h4>Liri Personal Assistant.</h4>
              <p>Search for Upcoming Concerts, Read Movie Reviews and Play Spotify Songs, all from the comfort of your command line.</p>
@@ -388,7 +388,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-10 End */}
           <div id="modal-11" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/wordGuess.jpg" alt="" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/wordGuess.jpg'} alt="" />
             <div className="description-box">
               <h4>Dune Word Guess Game</h4>
               <p>This is about as nerdy as it gets. Node word guess game that uses Node.js. Based on Frank Herbert's Dune. Its not going to be easy.</p>
@@ -401,7 +401,7 @@ export default class Portfolio extends Component {
           </div>{/* modal-11 End */}
 
           <div id="modal-12" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/fiboCsharp.PNG" alt="" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/fiboCsharp.PNG'} alt="" />
             <div className="description-box">
               <h4>Fibonacci sequence in C#</h4>
               <p>Basic Fibonacci Sequence in C#</p>
@@ -443,7 +443,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-23" className="popup-modal mfp-hide" style={{float:"left", paddingRight:200}}>
-            <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.JPG" alt="" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/mySqlEmployees.JPG'} alt="" />
             <div className="description-box">
               <h4>ComingSoon- Common SQL situations </h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -470,7 +470,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-12" title="true">
-                    <img alt="" src="images/portfolio/fiboCsharp.PNG" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/fiboCsharp.PNG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>C#</h5>
@@ -485,7 +485,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-20" title="true">
-                    <img alt="" src="images/portfolio/cssMover.JPG" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/cssMover.JPG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Changing  List Order in CSS</h5>
@@ -499,7 +499,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-21" title="true">
-                    <img alt="" src="images/portfolio/cSharpFactorials.JPG" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/cSharpFactorials.JPG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>ComingSoon- Factorials in C#</h5>
@@ -513,7 +513,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item" style={{padding: '5px'}}>
                 <div className="item-wrap">
                   <a href="#modal-22" title="true">
-                    <img alt="" src="images/portfolio/mysqVariables.JPG" />
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/portfolio/mysqVariables.JPG'} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>ComingSoon- Variables in MySQL</h5>
@@ -545,7 +545,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-08 End */}
           <div id="modal-20" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/cssMover.JPG" alt="" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/cssMover.JPG'} alt="" />
             <div className="description-box">
               <h4>Changing  List Order in CSS</h4>
               <p>ComingSoon</p>
@@ -557,7 +557,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-20 End */}
           {/* <div id="modal-09" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="./images/portfolio/enterNodeCmd5.JPG" alt="entercmd" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/enterNodeCmd5.JPG'} alt="entercmd" />
             <div className="description-box">
               <h4>ComingSoon</h4>
               <p>ComingSoon</p>
@@ -583,7 +583,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-21 End */}
           <div id="modal-22" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/mysqVariables.JPG" alt="sqlVar" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/mysqVariables.JPG'} alt="sqlVar" />
             <div className="description-box">
               <h4>ComingSoon- Variables in MySQL</h4>
               <p>How to make variables in SQL</p>
@@ -607,7 +607,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-05 End */}
           <div id="modal-23" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/mySqlEmployees.JPG" alt="mySqlModal" />
+            <img className="scale-with-grid" src={process.env.PUBLIC_URL + '/images/portfolio/mySqlEmployees.JPG'} alt="mySqlModal" />
             <div className="description-box">
               <h4>ComingSoon- Common SQL situations</h4>
               <p>Databases</p>

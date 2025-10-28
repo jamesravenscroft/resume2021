@@ -53,19 +53,15 @@ export default class Resume extends Component {
           <div className="row item">
               <div className="twelve columns">
                 <h3>Freelance Dojo</h3>
-                <p className="info">Web Developer, Coding Consultant.  <span>•</span> <em className="date">2020</em></p>
+                <p className="info">Web Developer, Coding Consultant.  <span>•</span> <em className="date">2023-Present</em></p>
                 <p>
                 Setting up DNS Node JS and Python environments. Building Wordpress and Shopify Sites. 
                 </p>
-              </div>
+              
             </div> {/* item end */}
 
           
-        <div className="row work">
-          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
-          </div>
-          <div className="nine columns main-col">
+      
           <div className="row item">
               <div className="twelve columns">
                 <h3>Trevita</h3>
@@ -73,7 +69,7 @@ export default class Resume extends Component {
                 <p>
                 Overseeing UI changes for iOS and Android App. 
                 </p>
-              </div>
+      
             </div> {/* item end */}
 
 
@@ -107,7 +103,7 @@ export default class Resume extends Component {
               </div>
             </div> {/* item end */}
           </div> {/* main-col end */}
-        </div> {/* End Work */}
+  </div> {/* End Work */}
         {/* Skills
       ----------------------------------------------- */}
         <div className="row skill">
@@ -129,8 +125,9 @@ export default class Resume extends Component {
             </div>{/* end skill-bars */}
           </div> {/* main-col end */}
         </div> {/* End skills */}
-      </section> {/* Resume Section End*/}
-      </React.Fragment>
+  </div>{/* Resume Section End*/}
+  </div></section>
+           </React.Fragment>
     );
   }
 }
