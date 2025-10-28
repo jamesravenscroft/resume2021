@@ -62,6 +62,11 @@ export default class Resume extends Component {
 
           
       
+<<<<<<< HEAD
+=======
+         
+          <div className="nine columns main-col">
+>>>>>>> 0735e85905f947f35ba79d80d8a9e21e0be55601
           <div className="row item">
               <div className="twelve columns">
                 <h3>Trevita</h3>
@@ -103,7 +108,11 @@ export default class Resume extends Component {
               </div>
             </div> {/* item end */}
           </div> {/* main-col end */}
+<<<<<<< HEAD
   </div> {/* End Work */}
+=======
+        </div> {/* End Work */}</div><br></br>
+>>>>>>> 0735e85905f947f35ba79d80d8a9e21e0be55601
         {/* Skills
       ----------------------------------------------- */}
         <div className="row skill">
