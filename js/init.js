@@ -121,6 +121,10 @@
 /*----------------------------------------------------*/
 /*	Flexslider
 /*----------------------------------------------------*/
+// Flexslider is no longer used; slider replaced with react-slick in the
+// React component. Keeping this block commented out to avoid errors from
+// missing plugin if jQuery remains in use for other features.
+/*
    $('.flexslider').flexslider({
       namespace: "flex-",
       controlsContainer: ".flex-container",
@@ -132,6 +136,7 @@
       animationSpeed: 600,
       randomize: false,
    });
+*/
 
 /*----------------------------------------------------*/
 /*	contact form
